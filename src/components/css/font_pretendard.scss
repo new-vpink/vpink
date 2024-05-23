@@ -1,0 +1,9 @@
+@mixin font-face($fontPretendardVariable, $PretendardVariable, $weight: normal, $style: normal) {
+    @font-face {
+      font-family: "#{$PretendardVariable}";
+      src: url('../../../public/fonts/#{$fontPretendardVariable}.woff2') format('woff2-variations'),
+           url('../../../public/fonts/#{$PretendardVariable}.ttf') format('truetype');
+      font-weight: $weight;
+      font-style: $style;
+    }
+  }
