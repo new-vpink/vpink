@@ -1,0 +1,11 @@
+# dotenv environment variables file
+.env
+
+# Node.js dependencies
+node_modules/
+
+# pnpm store directory
+.pnpm-store/
+
+# cache
+.sass-cache
