@@ -1,6 +1,7 @@
 @import url(typography.css);
 html {
-  font-size: 94.75%; }
+  /* font-size: 94.75%;  */
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -71,7 +72,7 @@ body {
   background: #fa923f;
   border-color: #fa923f; }
 
-@media (min-width: 40rem) {
+/* @media (min-width: 40rem) {
   html {
     font-size: 125%; }
 
@@ -80,7 +81,7 @@ body {
 
   .sass-introduction,
   .sass-details {
-    width: 30rem; } }
+    width: 30rem; } } */
 
 /*# sourceMappingURL=main.css.map */
 
@@ -94,35 +95,42 @@ ul, li {
 }
 
 .container {
-  background: #fff;
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
+  background: #fff;
+  border: 1px solid black;
   padding: 0 0 100px 0;
   overflow-x: hidden;
+  /* width: 600px; */
 }
 
 header.header {
   width: 100%;
   display: flex;
   box-sizing: border-box;
-  padding: 16px 16px 10px 16px;
+  /* padding: 16px 16px 10px 16px; */
   align-items: center;
 }
 
 header.header img {
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 
 header.header svg {
-  width: 30px;
-  height: 30px;
+  /* width: 30px;
+  height: 30px; */
 }
 
 section.search-container,
 section.ad-section-container,
 section.main-menu-container,
 section.main-new-join-event-banner-container,
-section.main-today-pick {
+section.main-today-pick,
+section.main-weather-pick,
+section.main-beauty-sale,
+section.main-hot-new-product {
   width: 100%;
   box-sizing: border-box;
   padding: 9px 16px 9px 26px;
@@ -136,6 +144,7 @@ section.search-container input {
   width: 100%;
   border: none;
   padding-left: 10px;
+  background: transparent;
 }
 
 section.ad-section-container img {
@@ -186,6 +195,7 @@ section.ad-section-container p.slick-paging span:nth-last-child(1)::before {
   background-color: #dadde0;
 }
 
+/* 메인 메뉴 버튼 */
 section.main-menu-container .main-menu-ico ul {
   display: flex;
   align-items: center;
@@ -216,6 +226,7 @@ section.main-menu-container .main-menu-ico ul li .main-menu-ico-style img {
   margin: 3px auto;
 }
 
+/* 회원가입 혜택 배너 */
 section.main-new-join-event-banner-container a {
   display: block;
   background: #f1f3f4;
@@ -244,6 +255,7 @@ section.main-new-join-event-banner-container .new-join-event-banner {
   font-weight: bold;
 }
 
+/* 상단 검색창 */
 .container section.search-container {
   display: flex;
   border-radius: 10px;
@@ -262,6 +274,7 @@ section.main-new-join-event-banner-container .new-join-event-banner {
   
 }
 
+/* 오늘의 추천 타이틀 */
 .main-today-pick-title {
   display: flex;
   align-items: start;
@@ -273,6 +286,7 @@ section.main-today-pick span {
   align-items: center;
 }
 
+/* 더보기 */
 .btn-more {
   display: flex;
   margin-left: auto;
@@ -287,6 +301,7 @@ section.main-today-pick span {
   margin-left: 5px;
 }
 
+/* today 오늘의 추천 상품 */
 .today-pick span {
   font-size: 1.2em;
   font-weight: 700;
@@ -301,7 +316,8 @@ section.main-today-pick span {
 }
 
 .main-today-pick-list ul li img {
-  height: 248px;
+  height: 230px;
+  border-radius: 10px;
 }
 
 section.main-today-pick .main-today-pick-list {
@@ -316,5 +332,226 @@ section.main-today-pick {
 
 .main-today-pick-list ul li p {
   text-align: left;
-  margin: 10px 0 0;
+  margin: 5px 0 0;
+  font-size: 0.8em;
+}
+
+.main-today-pick-list ul li p.product-company-name {
+  color: #6f6f6f;
+}
+
+.main-today-pick-list ul li p:nth-last-child(1) {
+  font-size: 0.9em;
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+/* 계절별 유행 헤어스타일 추천 타이틀 */
+.main-weather-pick-title {
+  display: flex;
+  align-items: start;
+}
+
+section.main-weather-pick div,
+section.main-weather-pick span {
+  display: flex;
+  align-items: center;
+}
+
+/* 더보기 */
+.btn-more {
+  display: flex;
+  margin-left: auto;
+}
+
+.btn-more span {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.btn-more span:nth-last-child(1) {
+  margin-left: 5px;
+}
+
+/* weather 계절 유행 스타일 추천 */
+.weather-pick span {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.main-weather-pick-list ul {
+  display: flex;
+}
+
+.main-weather-pick-list ul li {
+  margin-right: 15px;
+}
+
+.main-weather-pick-list ul li img {
+  height: 230px;
+  border-radius: 10px;
+}
+
+section.main-weather-pick .main-weather-pick-list {
+  display: flex;
+  align-items: start;
+  padding: 20px 0;
+}
+
+.main-weather-pick-list ul li p {
+  text-align: left;
+  margin: 5px 0 0;
+  font-size: 0.8em;
+}
+
+.main-weather-pick-list ul li p.product-company-name {
+  color: #6f6f6f;
+}
+
+.main-weather-pick-list ul li p:nth-last-child(1) {
+  font-size: 0.9em;
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+/* 구분선 스타일 */
+.hr-line-style {
+  background-color: #f1f1f1;
+  height: 10px;
+  width: 100%;
+  border: none;
+}
+
+/* beauty sale 오늘의 뷰티 특가 */
+.main-beauty-sale-title {
+  display: flex;
+  align-items: start;
+}
+
+section.main-beauty-sale div,
+section.main-beauty-sale span {
+  display: flex;
+  align-items: center;
+}
+
+/* 더보기 */
+.btn-more {
+  display: flex;
+  margin-left: auto;
+}
+
+.btn-more span {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.btn-more span:nth-last-child(1) {
+  margin-left: 5px;
+}
+
+.beauty-sale span {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.main-beauty-sale-list ul {
+  display: flex;
+}
+
+.main-beauty-sale-list ul li {
+  margin-right: 15px;
+}
+
+.main-beauty-sale-list ul li img {
+  height: 350px;
+  border-radius: 10px;
+}
+
+section.main-beauty-sale .main-beauty-sale-list {
+  display: flex;
+  align-items: start;
+  padding: 20px 0;
+}
+
+.main-beauty-sale-list ul li p {
+  text-align: left;
+  margin: 5px 0 0;
+  font-size: 0.8em;
+}
+
+.main-beauty-sale-list ul li p.product-company-name {
+  color: #6f6f6f;
+}
+
+.main-beauty-sale-list ul li p:nth-last-child(1) {
+  font-size: 0.9em;
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+/* 인기 신제품 */
+.main-hot-new-product-title {
+  display: flex;
+  align-items: start;
+}
+
+section.main-hot-new-product div,
+section.main-hot-new-product span {
+  display: flex;
+  align-items: center;
+}
+
+/* 더보기 */
+.btn-more {
+  display: flex;
+  margin-left: auto;
+}
+
+.btn-more span {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.btn-more span:nth-last-child(1) {
+  margin-left: 5px;
+}
+
+.hot-new-product span {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.main-hot-new-product-list ul {
+  display: flex;
+}
+
+.main-hot-new-product-list ul li {
+  margin-right: 15px;
+}
+
+.main-hot-new-product-list ul li img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+section.main-hot-new-product .main-hot-new-product-list {
+  display: flex;
+  align-items: start;
+  padding: 20px 0;
+}
+
+.main-hot-new-product-list ul li p {
+  text-align: left;
+  margin: 5px 0 0;
+  font-size: 0.8em;
+}
+
+.main-hot-new-product-list ul li p.product-company-name {
+  color: #6f6f6f;
+}
+
+.main-hot-new-product-list ul li p:nth-last-child(1) {
+  font-size: 0.9em;
+  font-weight: 800;
+  margin-top: 5px;
 }
