@@ -121,29 +121,21 @@ header.header svg {
 section.search-container,
 section.ad-section-container,
 section.main-menu-container,
-section.main-new-join-event-banner-container {
+section.main-new-join-event-banner-container,
+section.main-today-pick {
   width: 100%;
   box-sizing: border-box;
   padding: 9px 16px 9px 26px;
   text-align: center;
-  position: relative;
+  
 }
 
 section.search-container input {
   display: inline-block;
   box-sizing: border-box;
   width: 100%;
-  border-radius: 10px;
-  border: 1px solid #F2F4F5;
-  background: #FAFAFA;
-  height: 36px;
-  padding: 9px 0px 9px 37px;
-}
-
-section.search-container svg {
-  position: absolute;
-  left: 33px;
-  top: 19px;
+  border: none;
+  padding-left: 10px;
 }
 
 section.ad-section-container img {
@@ -250,4 +242,79 @@ section.main-new-join-event-banner-container .new-join-event-banner {
 .new-join-event-banner p span:nth-last-child(1) {
   font-size: 1.4em;
   font-weight: bold;
+}
+
+.container section.search-container {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid #F2F4F5;
+  background: #FAFAFA;
+  width: 560px;
+  height: 36px;
+  margin: 9px 44px;
+  padding: 9px 16px 9px 10px;
+
+}
+
+.search-container .search-ico {
+  display: flex;
+  align-items: center;
+  
+}
+
+.main-today-pick-title {
+  display: flex;
+  align-items: start;
+}
+
+section.main-today-pick div,
+section.main-today-pick span {
+  display: flex;
+  align-items: center;
+}
+
+.btn-more {
+  display: flex;
+  margin-left: auto;
+}
+
+.btn-more span {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.btn-more span:nth-last-child(1) {
+  margin-left: 5px;
+}
+
+.today-pick span {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.main-today-pick-list ul {
+  display: flex;
+}
+
+.main-today-pick-list ul li {
+  margin-right: 15px;
+}
+
+.main-today-pick-list ul li img {
+  height: 248px;
+}
+
+section.main-today-pick .main-today-pick-list {
+  display: flex;
+  align-items: start;
+  padding: 20px 0;
+}
+
+section.main-today-pick {
+  margin-top: 25px;
+}
+
+.main-today-pick-list ul li p {
+  text-align: left;
+  margin: 10px 0 0;
 }
