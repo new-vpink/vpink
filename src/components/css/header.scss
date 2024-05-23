@@ -1,0 +1,36 @@
+.header {
+    height: 60px;
+    border: 1px solid red;
+    padding: {
+        left: 1rem;
+        right: 1rem;
+    }
+    display: flex;
+    flex: {
+        direction: row;
+    }
+    align-items: flex-end;
+    justify-content: space-between;
+
+    .header-logo {
+        border: 1px solid blue;
+    }
+    .header-msg__container {
+        position: relative;
+        border: 1px solid pink;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-msg__alert {
+        position: absolute;
+        background-color: red;
+        width: 8px;
+        height: 8px;
+        border-radius: 50px;
+        top: 7px;
+        left: 31px;
+    }
+}
