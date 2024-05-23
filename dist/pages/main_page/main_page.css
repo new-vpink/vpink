@@ -1,6 +1,21 @@
+/*
+Copyright (c) 2021 Kil Hyung-jin, with Reserved Font Name Pretendard.
+https://github.com/orioncactus/pretendard
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+*/
+@font-face {
+  font-family: "Pretendard Variable";
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url("./PretendardVariable.woff2") format("woff2-variations");
+}
 body {
   margin: 0;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Pretendard Variable", sans-serif;
 }
 
 .main .main-img {
@@ -24,6 +39,7 @@ body {
   bottom: -40px;
   height: 48px;
   width: 115px;
+  box-shadow: -3px -3px 30px 1px red, 3px 3px 30px 1px blue;
 }
 .main .main-button__travel {
   height: 36px;
@@ -51,11 +67,12 @@ body {
   height: 350px;
 }
 .article .article-img {
-  background-image: url("../../../public/images/barber-shop.png");
+  background: linear-gradient(to top, rgb(163, 147, 131) 10%, rgba(163, 147, 131, 0) 40%), url("../../../public/images/barber-shop.png");
   background-size: cover;
   width: 310px;
   height: 350px;
   position: absolute;
+  border-radius: 5px;
 }
 .article .article-badge {
   background-color: white;
@@ -70,6 +87,8 @@ body {
   justify-content: center;
   top: 15px;
   left: 15px;
+  font-weight: bold;
+  box-shadow: 0px 5px 20px;
 }
 
 .article-slide__wrapper {
