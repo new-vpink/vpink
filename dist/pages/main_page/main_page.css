@@ -1,4 +1,101 @@
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.main .main-img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.main .container > button {
+  background-color: #333333;
+  border-radius: 10px;
+  border: 2px solid white;
+  font-weight: bold;
+  color: white;
+}
+.main .main-button__beauty {
+  height: 36px;
+  width: 80px;
+}
+.main .main-button__culture {
+  position: relative;
+  bottom: -40px;
+  height: 48px;
+  width: 115px;
+}
+.main .main-button__travel {
+  height: 36px;
+  width: 80px;
+}
+
+.article-section {
+  margin-top: 15px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  height: calc(100% - 60px);
+  padding-top: 60px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  background-color: #e5e5e5;
+}
+
+.article {
+  position: relative;
+  width: 310px;
+  height: 350px;
+}
+.article .article-img {
+  background-image: url("../../../public/images/barber-shop.png");
+  background-size: cover;
+  width: 310px;
+  height: 350px;
+  position: absolute;
+}
+.article .article-badge {
+  background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 40px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 15px;
+  left: 15px;
+}
+
+.article-slide__wrapper {
+  background-color: #333333;
+  height: 366px;
+  width: 100%;
+}
+
+.article-slide__text {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  margin: 0;
+  color: white;
+}
+
+.article-slider {
+  padding-left: 60px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  gap: 15px;
+}
+.article-slider img {
+  width: 212px;
+  height: 212px;
+}
 
 /*# sourceMappingURL=main_page.css.map */
