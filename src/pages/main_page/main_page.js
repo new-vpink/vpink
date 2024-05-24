@@ -1,11 +1,10 @@
-// Drag 할 경우, HTMLElement에 대해서 마우스 버튼 클릭시의 
-const container = document.querySelector('.container') as HTMLElement
+const container = document.querySelector('.container')
 
-let isDown: boolean = false
-let startY: number
-let scrollTop: number
+let isDown = false
+let startY
+let scrollTop
 
-container.addEventListener('mousedown', (e: MouseEvent) => {
+container.addEventListener('mousedown', (e) => {
     isDown = true;
     container.classList.add('active');
     startY = e.pageY - container.offsetTop;
@@ -25,7 +24,7 @@ container.addEventListener('mouseup', () => {
     console.log(`mouseUp`);
 });
 
-container.addEventListener('mousemove', (e: MouseEvent) => {
+container.addEventListener('mousemove', (e) => {
     if (!isDown) return;
     e.preventDefault();
     const y = e.pageY - container.offsetTop;
