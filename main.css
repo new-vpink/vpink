@@ -103,7 +103,7 @@ ul, li {
   border: 1px solid black;
   padding: 0 0 100px 0;
   overflow-x: hidden;
-  /* width: 600px; */
+  box-sizing: border-box;
 }
 
 header.header {
@@ -593,12 +593,76 @@ section.main-hot-new-product .main-hot-new-product-list {
 }
 .sideMenu {
   position: fixed;
-  top: 0;
-  right: 284px;
-  width: 0;
-  height: 100%;
-  background-color: #333;
+  right: 171px;
+  background-color: #f00;
   padding-top: 60px;
   transition: right 0.3s ease;
   display: none;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  /* right: 0; */
+
+  
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* footer */
+.footer-container {
+  position: fixed;
+  width: 600px;
+  height: 50px;
+  background-color: #fff;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.footer-container .footer-nav {
+  position: relative;
+  padding: 0 30px;
+  bottom: 0;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav ul li {
+  margin: 0 5px;
+}
+
+.footer-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
 }
