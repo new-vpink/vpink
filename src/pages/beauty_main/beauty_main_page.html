@@ -6,6 +6,7 @@
     <title>Beauty Main Page</title>
     <link rel="stylesheet" href="../../../main.css" />
     <link rel="stylesheet" href="../../../dist/components/css/header.css" />
+    <script src="beauty_main.js"></script>
   </head>
   <body>
     <div class="container">
@@ -43,7 +44,7 @@
             </defs>
           </svg>
         </div>
-        <div class="header-msg__container">
+        <div class="header-msg__container" onclick="openSideMenu();">
           <img class="header-msg__img" src="/public/images/message.png" />
           <div class="header-msg__alert"></div>
         </div>
@@ -65,11 +66,14 @@
         <input type="text" placeholder="오늘 한번 가꾸어 볼까?" />
       </section>
       <section class="ad-section-container">
-        <img src="../../../public/images/ad_img1.jpeg" alt="첫 번째 광고 이미지">
-        <p class="slick-paging">
-          <span class="current-no">1</span>
-          <span>&nbsp;2</span>
+        <img src="../../../public/images/ad_img1.jpeg" onclick="location.href='#'" id="ad-section-img" alt="첫 번째 광고 이미지">
+        <p id="slick-paging">
+          <span id="current-no">1</span>
+          <span>|</span>
+          <span id="total-no"></span>
         </p>
+        <button onclick="movePrevAdSection();"><</button>
+        <button onclick="moveNextAdSection();">></button>
       </section>
       <section class="main-menu-container">
         <div class="main-menu-ico">
@@ -297,6 +301,13 @@
               <p class="product-title">샴푸</p>
             </li>
           </ul>
+        </div>
+
+        <div class="sideMenu">
+          사이드메뉴
+          <div class="closeSideMenuBtn" onclick="closeSideMenu(this);">
+            ㅁ
+          </div>
         </div>
       </section>
 

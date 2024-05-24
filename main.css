@@ -152,39 +152,61 @@ section.ad-section-container img {
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
+  pointer-events: none;
+}
+
+section.ad-section-container a {
+  pointer-events: none;
 }
 
 section.ad-section-container {
   position: relative;
 }
 
-section.ad-section-container p.slick-paging {
+section.ad-section-container p#slick-paging {
   position: absolute;
   right: 30px;
-  bottom: 25px;
+  bottom: 45px;
   width: 50px;
   height: 20px;
   line-height: 17px;
-  padding: 5px;
+  padding: 5px 10px;
   margin: 0px;
   border-radius: 17px;
   background: #000;
   opacity: 0.7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-section.ad-section-container p.slick-paging span {
+a#ad-section-link, img#ad-section-img {
+  z-index: -99;
+}
+
+section.ad-section-container p#slick-paging span {
   font-size: 14px;
   position: relative;
-  padding-left: 3px;
   text-align: left;
   color: #c9cdd2;
 }
 
-section.ad-section-container p.slick-paging span:nth-child(1) {
+section.ad-section-container p#slick-paging span:nth-child(1) {
   color: #fff;
+  display: flex;
 }
 
-section.ad-section-container p.slick-paging span:nth-last-child(1)::before {
+section.ad-section-container p#slick-paging span:nth-child(2) {
+  font-size: 13px;
+  display: flex;
+}
+
+section.ad-section-container p#slick-paging span:nth-child(3) {
+  font-size: 14px;
+  display: flex;
+}
+
+/* section.ad-section-container p#slick-paging span:nth-last-child(1)::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -193,7 +215,7 @@ section.ad-section-container p.slick-paging span:nth-last-child(1)::before {
   height: 10px;
   transform: translateY(-50%);
   background-color: #dadde0;
-}
+} */
 
 /* 메인 메뉴 버튼 */
 section.main-menu-container .main-menu-ico ul {
@@ -309,15 +331,21 @@ section.main-today-pick span {
 
 .main-today-pick-list ul {
   display: flex;
+  width: 100%;
 }
 
 .main-today-pick-list ul li {
   margin-right: 15px;
+
+  flex: 0 0 auto; /* 슬라이드 간격을 유지하며 가로로 배열 */
 }
 
 .main-today-pick-list ul li img {
   height: 230px;
   border-radius: 10px;
+
+  max-width: 100%; /* 이미지가 부모 요소에 맞게 조정 */
+  /* height: auto;   */
 }
 
 section.main-today-pick .main-today-pick-list {
@@ -328,6 +356,9 @@ section.main-today-pick .main-today-pick-list {
 
 section.main-today-pick {
   margin-top: 25px;
+
+  overflow: scroll;
+  position: relative;
 }
 
 .main-today-pick-list ul li p {
@@ -495,8 +526,8 @@ section.main-beauty-sale .main-beauty-sale-list {
   align-items: start;
 }
 
-section.main-hot-new-product div,
-section.main-hot-new-product span {
+section.main-hot-new-product .main-hot-new-product-title,
+section.main-hot-new-product .hot-new-product > span {
   display: flex;
   align-items: center;
 }
@@ -554,4 +585,20 @@ section.main-hot-new-product .main-hot-new-product-list {
   font-size: 0.9em;
   font-weight: 800;
   margin-top: 5px;
+}
+
+/* 우측 상단 사이드 메뉴 */
+.container {
+  position: relative;
+}
+.sideMenu {
+  position: fixed;
+  top: 0;
+  right: 284px;
+  width: 0;
+  height: 100%;
+  background-color: #333;
+  padding-top: 60px;
+  transition: right 0.3s ease;
+  display: none;
 }
