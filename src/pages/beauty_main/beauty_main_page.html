@@ -6,6 +6,7 @@
     <title>Beauty Main Page</title>
     <link rel="stylesheet" href="../../../main.css" />
     <link rel="stylesheet" href="../../../dist/components/css/header.css" />
+    <script src="beauty_main.js"></script>
   </head>
   <body>
     <div class="container">
@@ -43,9 +44,10 @@
             </defs>
           </svg>
         </div>
-        <div class="header-msg__container">
-          <img class="header-msg__img" src="/public/images/message.png" />
-          <div class="header-msg__alert"></div>
+        <div class="header-msg__container" onclick="openSideMenu();">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.75 12.5C19.75 12.3011 19.671 12.1103 19.5303 11.9697C19.3897 11.829 19.1989 11.75 19 11.75H5C4.80109 11.75 4.61032 11.829 4.46967 11.9697C4.32902 12.1103 4.25 12.3011 4.25 12.5C4.25 12.6989 4.32902 12.8897 4.46967 13.0303C4.61032 13.171 4.80109 13.25 5 13.25H19C19.1989 13.25 19.3897 13.171 19.5303 13.0303C19.671 12.8897 19.75 12.6989 19.75 12.5ZM19.75 7.5C19.75 7.30109 19.671 7.11032 19.5303 6.96967C19.3897 6.82902 19.1989 6.75 19 6.75H5C4.80109 6.75 4.61032 6.82902 4.46967 6.96967C4.32902 7.11032 4.25 7.30109 4.25 7.5C4.25 7.69891 4.32902 7.88968 4.46967 8.03033C4.61032 8.17098 4.80109 8.25 5 8.25H19C19.1989 8.25 19.3897 8.17098 19.5303 8.03033C19.671 7.88968 19.75 7.69891 19.75 7.5ZM19.75 17.5C19.75 17.3011 19.671 17.1103 19.5303 16.9697C19.3897 16.829 19.1989 16.75 19 16.75H5C4.80109 16.75 4.61032 16.829 4.46967 16.9697C4.32902 17.1103 4.25 17.3011 4.25 17.5C4.25 17.6989 4.32902 17.8897 4.46967 18.0303C4.61032 18.171 4.80109 18.25 5 18.25H19C19.1989 18.25 19.3897 18.171 19.5303 18.0303C19.671 17.8897 19.75 17.6989 19.75 17.5Z" fill="black" />
+          </svg>
         </div>
       </header>
 
@@ -65,11 +67,14 @@
         <input type="text" placeholder="오늘 한번 가꾸어 볼까?" />
       </section>
       <section class="ad-section-container">
-        <img src="../../../public/images/ad_img1.jpeg" alt="첫 번째 광고 이미지">
-        <p class="slick-paging">
-          <span class="current-no">1</span>
-          <span>&nbsp;2</span>
+        <img src="../../../public/images/ad_img1.jpeg" onclick="location.href='#'" id="ad-section-img" alt="첫 번째 광고 이미지">
+        <p id="slick-paging">
+          <span id="current-no">1</span>
+          <span>|</span>
+          <span id="total-no"></span>
         </p>
+        <button onclick="movePrevAdSection();"><</button>
+        <button onclick="moveNextAdSection();">></button>
       </section>
       <section class="main-menu-container">
         <div class="main-menu-ico">
@@ -120,7 +125,8 @@
           </div>
         </a>
       </section>
-      <section class="main-today-pick">
+      <section class="main-today-pick-container">
+        
         <div class="main-today-pick-title">
           <div class="today-pick">
             <span>오늘의 추천</span>
@@ -130,38 +136,41 @@
             <span>&gt;</span>
           </div>
         </div>
-        <div class="main-today-pick-list">
-          <ul>
-            <li>
-              <img src="../../../public/images/ad_img1.jpeg" alt="오늘의 추천 이미지">
-              <p class="product-company-name">
-                회사명
-              </p>
-              <p class="product-title">제품명</p>
-            </li>
-            <li>
-              <img src="../../../public/images/ad_img1.jpeg" alt="오늘의 추천 이미지">
-              <p class="product-company-name">
-                회사명
-              </p>
-              <p class="product-title">제품명</p>
-            </li>
-            <li>
-              <img src="../../../public/images/ad_img1.jpeg" alt="오늘의 추천 이미지">
-              <p class="product-company-name">
-                회사명
-              </p>
-              <p class="product-title">제품명</p>
-            </li>
-            <li>
-              <img src="../../../public/images/ad_img1.jpeg" alt="오늘의 추천 이미지">
-              <p class="product-company-name">
-                회사명
-              </p>
-              <p class="product-title">제품명</p>
-            </li>
-          </ul>
-        </div>
+
+
+          <div class="main-today-pick-list">
+            <ul>
+              <li>
+                <img src="../../../public/images/ad_img1.jpeg" alt="오늘의 추천 이미지">
+                <p class="product-company-name">
+                  회사명
+                </p>
+                <p class="product-title">제품명</p>
+              </li>
+              <li>
+                <img src="../../../public/images/ad_img1.jpeg" alt="오늘의 추천 이미지">
+                <p class="product-company-name">
+                  회사명
+                </p>
+                <p class="product-title">제품명</p>
+              </li>
+              <li>
+                <img src="../../../public/images/ad_img1.jpeg" alt="오늘의 추천 이미지">
+                <p class="product-company-name">
+                  회사명
+                </p>
+                <p class="product-title">제품명</p>
+              </li>
+              <li>
+                <img src="../../../public/images/ad_img1.jpeg" alt="오늘의 추천 이미지">
+                <p class="product-company-name">
+                  회사명
+                </p>
+                <p class="product-title">제품명</p>
+              </li>
+            </ul>
+          </div>
+        
       </section>
       <section class="main-weather-pick">
         <div class="main-weather-pick-title">
@@ -298,11 +307,56 @@
             </li>
           </ul>
         </div>
+
+        <div class="sideMenu">
+          <div class="sidebar">
+            <div class="closeSideMenuBtn" onclick="closeSideMenu(this);">
+              X
+            </div>
+            <ul>
+              <li><a href="#">메뉴 항목 1</a></li>
+              <li><a href="#">메뉴 항목 2</a></li>
+              <li><a href="#">메뉴 항목 3</a></li>
+              <li><a href="#">메뉴 항목 4</a></li>
+              <li><a href="#">메뉴 항목 5</a></li>
+            </ul>
+          </div>
+          
+        </div>
       </section>
 
-      <footer>
-
+      <footer class="footer-container">
+        <nav class="footer-nav">
+          <ul>
+              <li>
+                <a href="#">
+                  <img src="../../../public/images/home-ico.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="../../../public/images/search-ico.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="../../../public/images/location-ico.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="../../../public/images/shop-ico.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="../../../public/images/mypage-ico.png" alt="">
+                </a>
+              </li>
+          </ul>
+        </nav>
       </footer>
+      
     </div>
   </body>
 </html>
