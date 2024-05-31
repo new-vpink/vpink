@@ -1,0 +1,210 @@
+/* screen - paymentu95methodu95page */
+
+.paymentu95methodu95page {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1842px;
+  overflow: hidden;
+  width: 360px;
+}
+
+.paymentu95methodu95page .image-26 {
+  cursor: pointer;
+  height: 219px;
+  margin-top: 26px;
+  object-fit: cover;
+  width: 310px;
+}
+
+.paymentu95methodu95page .image-28 {
+  align-self: flex-start;
+  height: 104px;
+  margin-top: 19px;
+  object-fit: cover;
+  width: 370px;
+}
+
+.paymentu95methodu95page .image {
+  align-self: flex-start;
+  height: 104px;
+  object-fit: cover;
+  width: 370px;
+}
+
+.paymentu95methodu95page .overlap-group2 {
+  height: 145px;
+  margin-right: 4.0px;
+  margin-top: 6px;
+  position: relative;
+  width: 364px;
+}
+
+.paymentu95methodu95page .rectangle-2862232 {
+  background-color: var(--alto-2);
+  height: 121px;
+  left: 4px;
+  position: absolute;
+  top: 21px;
+  width: 360px;
+}
+
+.paymentu95methodu95page .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 5px;
+  display: flex;
+  height: 47px;
+  justify-content: flex-end;
+  left: 24px;
+  min-width: 310px;
+  padding: 12px 97px;
+  position: absolute;
+  top: 0;
+}
+
+.paymentu95methodu95page .text-19 {
+  white-space: nowrap;
+}
+
+.paymentu95methodu95page .text-193 {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 52px;
+  width: 300px;
+}
+
+.paymentu95methodu95page .text-194 {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 85px;
+  width: 300px;
+}
+
+.paymentu95methodu95page .text-195 {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 118px;
+  width: 300px;
+}
+
+.paymentu95methodu95page .rectangle-2862233 {
+  background-color: var(--black);
+  height: 21px;
+  left: 293px;
+  position: absolute;
+  top: 82px;
+  width: 22px;
+}
+
+.paymentu95methodu95page .rectangle-2862234 {
+  background-color: var(--black);
+  height: 21px;
+  left: 293px;
+  position: absolute;
+  top: 119px;
+  width: 22px;
+}
+
+.paymentu95methodu95page .rectangle-2862235 {
+  background-color: var(--black);
+  height: 21px;
+  left: 293px;
+  position: absolute;
+  top: 53px;
+  width: 22px;
+}
+
+.paymentu95methodu95page .image-31 {
+  height: 263px;
+  margin-top: 8px;
+  object-fit: cover;
+  width: 310px;
+}
+
+.paymentu95methodu95page .group-11873 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 2.0px;
+  margin-top: 11px;
+  min-width: 312px;
+}
+
+.paymentu95methodu95page .overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 5px;
+  display: flex;
+  height: 47px;
+  justify-content: flex-end;
+  min-width: 310px;
+  padding: 12px 83px;
+}
+
+.paymentu95methodu95page .image-32 {
+  height: 682px;
+  margin-left: 9.0px;
+  margin-top: 19px;
+  object-fit: cover;
+  width: 307px;
+}
+
+.paymentu95methodu95page .footer {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--seashell);
+  display: flex;
+  flex-shrink: 1;
+  gap: 50px;
+  height: 55px;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 15px 10px 8px;
+  position: fixed;
+  bottom: 0;
+  width: 360px;
+}
+
+.paymentu95methodu95page .vector {
+  height: 15.79px;
+  width: 14px;
+}
+
+.paymentu95methodu95page .text {
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.header123 {
+  display: flex;
+  margin-right: 1.0px;
+  width: 360px;
+}
+
+.header {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 100px;
+  height: 56px;
+  justify-content: flex-start;
+  min-width: 100%;
+  padding: 0 6px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}

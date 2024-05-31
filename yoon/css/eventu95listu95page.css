@@ -1,0 +1,186 @@
+/* screen - eventu95listu95page */
+
+.eventu95listu95page {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1562px;
+  width: 360px;
+}
+
+.eventu95listu95page .header {
+  display: flex;
+  width: 360px;
+}
+
+.eventu95listu95page .header-1 {
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  height: 56px;
+  justify-content: space-between;
+}
+
+.eventu95listu95page .button {
+  cursor: pointer;
+  height: 44px;
+  margin-left: 6px;
+  margin-top: 6px;
+  width: 44px;
+}
+
+.eventu95listu95page .link {
+  height: 44px;
+  margin-right: 6px;
+  margin-top: 6px;
+  width: 44px;
+}
+
+.eventu95listu95page .container {
+  display: flex;
+  flex-direction: column;
+  height: 1451px;
+  width: 360px;
+}
+
+.eventu95listu95page .frame-427319072 {
+  display: flex;
+  gap: 5px;
+  margin-left: 8px;
+  width: 168px;
+}
+
+.eventu95listu95page .frame-427319071 {
+  height: 30px;
+  width: 30px;
+}
+
+.eventu95listu95page .frame-427319070 {
+  display: flex;
+  margin-top: 8px;
+  width: 133px;
+}
+
+.eventu95listu95page .text-35 {
+  color: transparent;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  width: 133px;
+}
+
+.eventu95listu95page .span {
+  letter-spacing: -0.06px;
+}
+
+.eventu95listu95page .span1 {
+  color: #eb09f0;
+  letter-spacing: -0.06px;
+}
+
+.eventu95listu95page .frame-427319074 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  margin-top: 8px;
+}
+
+.eventu95listu95page .frame-4273190 {
+  background-color: var(--alto-2);
+  height: 241px;
+  width: 360px;
+}
+
+.eventu95listu95page .frame-4273189 {
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+  border-color: var(--black-2);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 79px;
+  width: 360px;
+}
+
+.eventu95listu95page .text-27 {
+  margin-left: 19px;
+  margin-top: 13px;
+  width: 119px;
+}
+
+.eventu95listu95page .text-28 {
+  margin-left: 19px;
+  width: 228px;
+}
+
+.eventu95listu95page .frame-4273190-1 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  margin-top: 46px;
+}
+
+.eventu95listu95page .frame-427319075 {
+  height: 241px;
+  width: 360px;
+}
+
+.eventu95listu95page .frame-427319076 {
+  display: flex;
+  width: 360px;
+}
+
+.eventu95listu95page .text {
+  margin-left: 19px;
+  margin-top: 13px;
+  width: 110px;
+}
+
+.eventu95listu95page .text-3 {
+  margin-left: 19px;
+  width: 202px;
+}
+
+.eventu95listu95page .frame-427319079 {
+  display: flex;
+  width: 360px;
+}
+
+.eventu95listu95page .frame-427319082 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  margin-top: 41px;
+}
+
+.eventu95listu95page .footer {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--seashell);
+  display: flex;
+  flex-shrink: 1;
+  gap: 50px;
+  height: 55px;
+  justify-content: center;
+  padding: 15px 10px 8px;
+  position: relative;
+  width: 360px;
+}
+
+.eventu95listu95page .vector {
+  height: 15.79px;
+  width: 14px;
+}
+
+.eventu95listu95page .text-1 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+}
