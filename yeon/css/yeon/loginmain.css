@@ -1,0 +1,201 @@
+/* screen - loginmain */
+
+.loginmain {
+  background-color: var(--wwwglowpickcomnero);
+  border: 1px solid;
+  border-color: var(--wwwglowpickcomblack);
+  display: flex;
+  flex-direction: column;
+  min-height: 833px;
+  min-width: 360px;
+  width: 100%;
+}
+
+.loginmain .header {
+  align-self: center;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  width: 360px;
+  z-index: 2;
+}
+
+.loginmain .button {
+  cursor: pointer;
+  height: 28px;
+  margin-left: 11px;
+  margin-top: 16px;
+  width: 18px;
+}
+
+.loginmain .container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  height: 409px;
+  margin-left: 34px;
+  margin-top: 100px;
+  width: 290px;
+  z-index: 1;
+}
+
+.loginmain .logo {
+  height: 70px;
+  margin-left: 72px;
+  width: 145px;
+}
+
+.loginmain .section {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  height: 239px;
+}
+
+.loginmain .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 196px;
+  width: 290px;
+}
+
+.loginmain .flex-col-item {
+  display: flex;
+  width: 290px;
+}
+
+.loginmain .kakao-login {
+  align-items: flex-start;
+  display: flex;
+  min-width: 292px;
+}
+
+.loginmain .kakao-container {
+  align-items: center;
+  background-color: #fee500;
+  border-radius: 5px;
+  display: flex;
+  gap: 79px;
+  height: 40px;
+  min-width: 290px;
+  padding: 0 14px;
+}
+
+.loginmain .kakao-txt {
+  color: var(--wwwglowpickcomblack);
+  font-family: var(--font-family-noto_sans);
+  font-size: var(--font-size-xxxs);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 22px;
+  min-width: 74px;
+  white-space: nowrap;
+}
+
+.loginmain .naver-login {
+  align-items: flex-start;
+  display: flex;
+  min-width: 292px;
+}
+
+.loginmain .naver-container {
+  align-items: center;
+  background-color: #1ec800;
+  border-radius: 5px;
+  display: flex;
+  gap: 78px;
+  height: 40px;
+  min-width: 290px;
+  padding: 0 13px;
+}
+
+.loginmain .naver-txt {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-noto_sans);
+  font-size: var(--font-size-xxxs);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 22px;
+  min-width: 74px;
+  white-space: nowrap;
+}
+
+.loginmain .google-login {
+  align-items: flex-start;
+  display: flex;
+  min-width: 292px;
+}
+
+.loginmain .google-container {
+  align-items: flex-start;
+  background-color: var(--wwwglowpickcomnero);
+  border: 1px solid;
+  border-color: #e3e2e2;
+  border-radius: 5px;
+  display: flex;
+  gap: 74px;
+  height: 40px;
+  min-width: 290px;
+  padding: 8px 12px;
+}
+
+.loginmain .email-group {
+  align-items: flex-start;
+  display: flex;
+  min-width: 292px;
+}
+
+.loginmain .email-container {
+  border-radius: 5px;
+  height: 40px;
+  position: relative;
+  width: 290px;
+}
+
+.loginmain .email-box {
+  background-color: var(--wwwglowpickcomblack);
+  border: 1px solid;
+  border-color: var(--celeste);
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 290px;
+}
+
+.loginmain .email-txt {
+  left: 108px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 9px;
+  white-space: nowrap;
+}
+
+.loginmain .section-1 {
+  display: flex;
+  margin-left: 117px;
+  width: 57px;
+}
+
+.loginmain .join-btn {
+  cursor: pointer;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+  width: 55px;
+}
+
+.loginmain .footer {
+  bottom: 0;
+  height: 47px;
+  left: calc(50.00% - 180px);
+  position: fixed;
+  width: 360px;
+  z-index: 3;
+}
