@@ -127,7 +127,7 @@ section.search-container,
 section.ad-section-container,
 section.main-menu-container,
 section.main-new-join-event-banner-container,
-section.main-today-pick,
+section.main-today-pick-container,
 section.main-weather-pick,
 section.main-beauty-sale,
 section.main-hot-new-product {
@@ -161,6 +161,8 @@ section.ad-section-container a {
 
 section.ad-section-container {
   position: relative;
+  width: 100%;
+  height: 243px;
 }
 
 section.ad-section-container p#slick-paging {
@@ -302,8 +304,8 @@ section.main-new-join-event-banner-container .new-join-event-banner {
   align-items: start;
 }
 
-section.main-today-pick div,
-section.main-today-pick span {
+section.main-today-pick-container div,
+section.main-today-pick-container span {
   display: flex;
   align-items: center;
 }
@@ -348,17 +350,17 @@ section.main-today-pick span {
   /* height: auto;   */
 }
 
-section.main-today-pick .main-today-pick-list {
+section.main-today-pick-container .main-today-pick-list {
   display: flex;
   align-items: start;
   padding: 20px 0;
+  width: max-content;
 }
 
-section.main-today-pick {
+section.main-today-pick-container {
   margin-top: 25px;
-
-  overflow: scroll;
   position: relative;
+  overflow: scroll;
 }
 
 .main-today-pick-list ul li p {
