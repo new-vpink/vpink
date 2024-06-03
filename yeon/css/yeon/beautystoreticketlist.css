@@ -23402,7 +23402,7 @@
   background-color: transparent;
   display: flex;
   flex: 0 0 auto;
-  flex-direction: column;
+  /* flex-direction: column; */
   opacity: 1;
   overflow: hidden;
   padding: 0px 1008px 0px 0px;
@@ -23659,18 +23659,9 @@
 }
 
 .beautystoreticketlist .header-C61RwL {
-  /* --z-index: 2;
-  background-color: transparent;
-  height: 48px;
-  left: 16px;
-  opacity: 1;
-  position: fixed;
-  top: 0px;
-  width: 345px; */
-
-    --z-index: 0;
+    --z-index: 2;
     position: fixed;
-    background-color: transparent;
+    background-color: #fff;
     height: 56px;
     left: calc(50.00% - 180px);
     opacity: 1;
