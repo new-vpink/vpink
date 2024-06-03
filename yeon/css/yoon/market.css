@@ -1,0 +1,1773 @@
+/* screen - market */
+
+.market {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.market .header {
+  align-items: center;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 56px;
+  justify-content: flex-start;
+  min-width: 100vw;
+  padding: 0 6px;
+  width: 100vw;
+  position: fixed;
+  z-index: 10;
+}
+
+.market .button {
+  cursor: pointer;
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 44px;
+}
+
+.market .link-button {
+  height: 36px;
+  left: 34px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 311px;
+}
+
+.market .container-13 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(2694px + 56px);
+  margin-top: 56px;
+  width: 100vw;
+}
+
+.market .rectangle-2862199 {
+  background-color: var(--alto-2);
+  cursor: pointer;
+  height: 216px;
+  width: 100vw;
+}
+
+.market .section {
+  border-color: var(--wild-sand);
+  border-top-style: solid;
+  border-top-width: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 375px;
+  width: 100vw;
+}
+
+.market .heading-2 {
+  height: 23px;
+  letter-spacing: -0.60px;
+  line-height: 23px;
+  margin-left: 16px;
+  margin-top: 33px;
+  white-space: nowrap;
+  width: 114.61px;
+}
+
+.market .container-14::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.market .container-14 {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  max-height: 274px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.market .ec9-b85eca784ed948-c {
+  background-image: url(../../images/yoon/img/-ec-9b-85-ec-a7-84-ed-94-8c-eb-a0-88-ec-9d-b4-eb-8f-84-ec-8b-9c-@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  height: 268px;
+  margin-left: 16px;
+  width: 218px;
+}
+
+.market .eba1afeb8-db0ec9-b94 {
+  background-image: url(../../images/yoon/img/-eb-a1-af-eb-8d-b0-ec-9b-94-eb-93-9c--ec-9d-bc-eb-b0-98-v5ucgrh-@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  height: 268px;
+  width: 218px;
+}
+
+.market .section-1 {
+  border-color: var(--wild-sand);
+  border-top-style: solid;
+  border-top-width: 6px;
+  display: flex;
+  flex-direction: column;
+  height: 652px;
+  width: 100vw;
+}
+
+.market .heading-2-top {
+  color: var(--eerie-black);
+  font-family: var(--font-family-inter);
+  font-size: 20px;
+  font-weight: 800;
+  width: 263px;
+}
+
+.market .container::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.market .container {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  margin-top: 18px;
+  max-height: 281px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.market .container-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  min-height: 281px;
+  width: 156px;
+}
+
+.market .background-border {
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: var(--eerie-black-2);
+  border-radius: 10px;
+  display: flex;
+  height: 156px;
+  overflow: hidden;
+  width: 156px;
+}
+
+.market .e18489e185a6e18485e1 {
+  background-image: url(../../images/yoon/img/--e1-84-89-e1-85-a6-e1-84-85-e1-85-a9-e1-84-92-e1-85-a7-e1-86-bc@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text {
+  height: 14px;
+  letter-spacing: -0.30px;
+  line-height: 14px;
+  margin-top: 7px;
+  white-space: nowrap;
+}
+
+.market .container-2 {
+  display: flex;
+  margin-top: 9px;
+  width: 156px;
+}
+
+.market .text-303 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 146.26px;
+}
+
+.market .flex-row {
+  align-items: center;
+  display: flex;
+  margin-top: 3px;
+  min-width: 129px;
+}
+
+.market .percent {
+  width: 26px;
+}
+
+.market .text-3 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-left: 2px;
+  white-space: nowrap;
+  width: 60px;
+}
+
+.market .text-3-1 {
+  height: 14px;
+  letter-spacing: -0.30px;
+  line-height: 14px;
+  margin-left: 4px;
+  text-decoration: line-through;
+  white-space: nowrap;
+  width: 37px;
+}
+
+.market .container-3 {
+  display: flex;
+  gap: 4px;
+  margin-top: 7px;
+  width: 156px;
+}
+
+.market .background {
+  background-color: var(--red-orange);
+  border-radius: 4px;
+  display: flex;
+  height: 18px;
+  width: 49.72px;
+}
+
+.market .text-3-2 {
+  height: 12px;
+  letter-spacing: -0.30px;
+  line-height: 12px;
+  margin-left: 4px;
+  margin-top: 3px;
+  white-space: nowrap;
+  width: 41.92px;
+}
+
+.market .overlay {
+  background-color: var(--neptune);
+  width: 24.69px;
+}
+
+.market .text-1 {
+  height: 12px;
+  letter-spacing: -0.30px;
+  line-height: 12px;
+  margin-left: 4px;
+  margin-top: 3px;
+  white-space: nowrap;
+  width: 16.89px;
+}
+
+.market .overlay-1 {
+  background-color: var(--cornflower-blue);
+  width: 30.08px;
+}
+
+.market .container-4 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  min-height: 281px;
+  width: 156px;
+}
+
+.market .x240306_ec8-db8eb84a4 {
+  background-image: url(../../images/yoon/img/240306--ec-8d-b8-eb-84-a4-ec-9d-bc-eb-ac-b8-ea-b5-acx-1-ww0zd01-@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-309 {
+  color: var(--onyx);
+  font-family: var(--font-family-inter);
+  font-size: 12.6px;
+  font-weight: 800;
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 151.79px;
+}
+
+.market .flex-row-1 {
+  min-width: 130px;
+}
+
+.market .percent-1 {
+  width: 24px;
+}
+
+.market .text-3-3 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-left: 2px;
+  white-space: nowrap;
+  width: 62px;
+}
+
+.market .text-2 {
+  height: 14px;
+  letter-spacing: -0.30px;
+  line-height: 14px;
+  margin-left: 4px;
+  text-decoration: line-through;
+  white-space: nowrap;
+  width: 39px;
+}
+
+.market .background-2 {
+  background-color: var(--red-orange);
+  border-radius: 4px;
+  display: flex;
+  height: 18px;
+  width: 40.13px;
+}
+
+.market .text-312 {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-weight: 700;
+  height: 12px;
+  letter-spacing: -0.30px;
+  line-height: 12px;
+  margin-left: 4px;
+  margin-top: 3px;
+  white-space: nowrap;
+  width: 32.33px;
+}
+
+.market .x600_9s-kz-vh-gjpg {
+  background-image: url(../../images/yoon/img/600-9skzvhg-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-315 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 143.9px;
+}
+
+.market .flex-row-2 {
+  min-width: 128px;
+}
+
+.market .text-4 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-left: 2px;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.market .overlay-2 {
+  background-color: var(--red-orange-2);
+  width: 27.95px;
+}
+
+.market .x2-2ec84b8eba19-c_eba {
+  background-image: url(../../images/yoon/img/2-2--ec-84-b8-eb-a1-9c--eb-a9-94-ec-9d-b8-ec-9d-b4-eb-af-b8-ec-a@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-321 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 147.47px;
+}
+
+.market .overlay-3 {
+  background-color: var(--abbey-3);
+  width: 41.38px;
+}
+
+.market .text-5 {
+  height: 12px;
+  letter-spacing: -0.30px;
+  line-height: 12px;
+  margin-left: 4px;
+  margin-top: 3px;
+  white-space: nowrap;
+  width: 33.58px;
+}
+
+.market .ed959-ceab5adec9-ea1 {
+  background-image: url(../../images/yoon/img/-ed-95-9c-ea-b5-ad-ec-9e-a1-ec-9b-94-eb-93-9c--ec-96-b4-eb-a6-b0@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .address {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 151.01px;
+}
+
+.market .flex-row-5 {
+  min-width: 113px;
+}
+
+.market .text-327 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-left: 2px;
+  white-space: nowrap;
+  width: 51px;
+}
+
+.market .text-328 {
+  height: 14px;
+  letter-spacing: -0.30px;
+  line-height: 14px;
+  margin-left: 4px;
+  text-decoration: line-through;
+  white-space: nowrap;
+  width: 33px;
+}
+
+.market .x240430_ecba98eba6ace {
+  background-image: url(../../images/yoon/img/240430--ec-ba-98-eb-a6-ac-ed-81-b4-eb-9f-bd--eb-86-80-ec-9d-b4-e@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-6 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 144.83px;
+}
+
+.market .flex-row-3 {
+  min-width: 132px;
+}
+
+.market .background-1 {
+  background-color: var(--red-orange);
+  border-radius: 4px;
+  display: flex;
+  height: 18px;
+  width: 41.38px;
+}
+
+.market .x001_r96r-jq-djpg {
+  background-image: url(../../images/yoon/img/001-r96rjqd-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-338 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 154.65px;
+}
+
+.market .flex-row-6 {
+  min-width: 118px;
+}
+
+.market .percent-4 {
+  width: 18px;
+}
+
+.market .container-5 {
+  display: flex;
+  margin-top: 7px;
+  width: 156px;
+}
+
+.market .eca09-cebaaa9ec9-d84 {
+  background-image: url(../../images/yoon/img/-ec-a0-9c-eb-aa-a9-ec-9d-84--ec-9e-85-eb-a0-a5-ed-95-b4-ec-a3-bc@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-7 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 153.4px;
+}
+
+.market .ec84b8eba19-ced9895e {
+  background-image: url(../../images/yoon/img/-ec-84-b8-eb-a1-9c-ed-98-95-eb-a9-94-ec-9d-b8-31lih70-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-348 {
+  color: var(--onyx);
+  font-family: var(--font-family-inter);
+  font-size: 12.4px;
+  font-weight: 800;
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 114.5px;
+}
+
+.market .percent-2 {
+  width: 25px;
+}
+
+.market .thumb_540x720_-tmuw-r-kepng {
+  background-image: url(../../images/yoon/img/thumb-540x720-tmuwrke-png@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .phone {
+  width: 143.22px;
+}
+
+.market .container-6::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.market .container-6 {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  margin-top: 16px;
+  max-height: 281px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.market .x0-b-rw6g-n-qs8rw4we-e_b5-tu-bi1 {
+  background-image: url(../../images/yoon/img/0brw6gnqs8rw4wee-b5tubi1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-358 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 147.51px;
+}
+
+.market .text-8 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-left: 2px;
+  white-space: nowrap;
+  width: 63px;
+}
+
+.market .container-7 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 281px;
+  width: 156px;
+}
+
+.market .background-border-1 {
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: var(--eerie-black-2);
+  border-radius: 10px;
+  display: flex;
+  flex: 1;
+  max-height: 156px;
+  overflow: hidden;
+}
+
+.market .x1000x1000_jr-s1-d3rjpg {
+  background-image: url(../../images/yoon/img/1000x1000-jrs1d3r-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-9 {
+  height: 14px;
+  letter-spacing: -0.30px;
+  line-height: 14px;
+  margin-top: 8px;
+  white-space: nowrap;
+  width: 37.61px;
+}
+
+.market .container-8 {
+  display: flex;
+  flex: 1;
+  margin-top: 8px;
+  max-height: 36px;
+}
+
+.market .text-364 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 106.03px;
+}
+
+.market .text-365 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 59.7px;
+}
+
+.market .container-9 {
+  display: flex;
+  flex: 1;
+  gap: 4px;
+  margin-top: 6px;
+  max-height: 18px;
+}
+
+.market .eba994ec9-db8_m-t5-sk97_ac-szl0-ejpg {
+  background-image: url(../../images/yoon/img/-eb-a9-94-ec-9d-b8-mt5sk97-acszl0e-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-368 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 140.34px;
+}
+
+.market .flex-row-7 {
+  min-width: 109px;
+}
+
+.market .percent-3 {
+  width: 19px;
+}
+
+.market .text-3-4 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-left: 2px;
+  white-space: nowrap;
+  width: 53px;
+}
+
+.market .text-370 {
+  height: 14px;
+  letter-spacing: -0.30px;
+  line-height: 14px;
+  margin-left: 4px;
+  text-decoration: line-through;
+  white-space: nowrap;
+  width: 32px;
+}
+
+.market .m-x0ofl-pwdo5sm5-g3_-dk-ywb-rd {
+  background-image: url(../../images/yoon/img/mx0oflpwdo5sm5g3-dkywbrd@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-373 {
+  color: var(--onyx);
+  font-family: var(--font-family-inter);
+  font-size: 12.6px;
+  font-weight: 800;
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 154.65px;
+}
+
+.market .text-374 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-left: 2px;
+  white-space: nowrap;
+  width: 59px;
+}
+
+.market .text-379 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 128.9px;
+}
+
+.market .flex-row-4 {
+  min-width: 133px;
+}
+
+.market .x600_s-p9l-g-edjpg {
+  background-image: url(../../images/yoon/img/600-sp9lged-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-385 {
+  color: var(--onyx);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 800;
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 148.29px;
+}
+
+.market .ebb0b0eb8488_ec9584e {
+  background-image: url(../../images/yoon/img/-eb-b0-b0-eb-84-88--ec-95-84-ec-82-b0-ec-8a-a4-ed-8c-8c-eb-b9-84@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-391 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 108.89px;
+}
+
+.market .m0a-r-pin-xw-sk-gnkv-o_8zxq-d-nv {
+  background-image: url(../../images/yoon/img/m0arpinxwskgnkvo-8zxqdnv@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .phone-1 {
+  width: 154.65px;
+}
+
+.market .flex-row-8 {
+  min-width: 122px;
+}
+
+.market .thumb_550x720jpg {
+  background-image: url(../../images/yoon/img/thumb-550x720-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .phone-2 {
+  width: 146.08px;
+}
+
+.market .eab3b5ed86b5ebb0b0eb {
+  background-image: url(../../images/yoon/img/-ea-b3-b5-ed-86-b5-eb-b0-b0-eb-84-88--eb-bd-80-ec-95-84-eb-b9-8c@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-406 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 150.87px;
+}
+
+.market .section-2 {
+  border-color: var(--wild-sand);
+  border-top-style: solid;
+  border-top-width: 6px;
+  display: flex;
+  height: 195px;
+  justify-content: center;
+  width: 100vw;
+}
+
+.market .container-15 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 33px;
+  width: 328px;
+}
+
+.market .overlap-group {
+  align-items: flex-end;
+  background-image: url(../../images/yoon/img/-e1-84-84-e1-85-b5-e1-84-87-e1-85-a2-e1-84-82-e1-85-a52-fcpiy4x-@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  height: 135px;
+  justify-content: flex-end;
+  min-width: 328px;
+  padding: 10px;
+}
+
+.market .paragraph-overlay {
+  align-items: flex-start;
+  background-color: #000000b2;
+  border-radius: 11px;
+  display: flex;
+  gap: 1px;
+  height: 22px;
+  justify-content: flex-end;
+  min-width: 41px;
+  padding: 3px 10.5px;
+}
+
+.market .number {
+  height: 14px;
+  letter-spacing: 0;
+  line-height: 14px;
+  text-align: center;
+  white-space: nowrap;
+  width: 6px;
+}
+
+.market .text-411 {
+  height: 14px;
+  letter-spacing: 0;
+  line-height: 14px;
+  text-align: center;
+  white-space: nowrap;
+  width: 5px;
+}
+
+.market .section-container {
+  height: 1256px;
+  position: relative;
+  width: 100vw;
+}
+
+.market .section-3 {
+  border-color: var(--wild-sand);
+  border-top-style: solid;
+  border-top-width: 6px;
+  display: flex;
+  flex-direction: column;
+  height: 679px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.market .heading-2-top-1 {
+  color: var(--eerie-black);
+  font-family: var(--font-family-inter);
+  font-size: 19.4px;
+  font-weight: 800;
+  height: 23px;
+  letter-spacing: -0.60px;
+  line-height: 23px;
+  margin-left: 16px;
+  margin-top: 33px;
+  white-space: nowrap;
+  width: 214px;
+}
+
+.market .ecbd98eb8-f84_eca084eab2bd_2jpg {
+  background-image: url(../../../images/yoon/img/-ec-bd-98-eb-8f-84--ec-a0-84-ea-b2-bd-2-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .flex-row-9 {
+  min-width: 137px;
+}
+
+.market .text-414 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-left: 2px;
+  white-space: nowrap;
+  width: 61px;
+}
+
+.market .text-415 {
+  height: 14px;
+  letter-spacing: -0.30px;
+  line-height: 14px;
+  margin-left: 4px;
+  text-decoration: line-through;
+  white-space: nowrap;
+  width: 45px;
+}
+
+.market .x8468d086-1b30-4188-b {
+  background-image: url(../../images/yoon/img/8468d086-1b30-4188-bfd4-ff2f46e83694-1685604978692-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .container-10 {
+  display: flex;
+  flex: 1;
+  margin-top: 8px;
+  max-height: 18px;
+}
+
+.market .text-4-1 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 104.78px;
+}
+
+.market .text-419 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 66.42px;
+}
+
+.market .dde66fb2-9484-411a-8 {
+  background-image: url(../../images/yoon/img/dde66fb2-9484-411a-8405-d2423ab561ee-1000-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-4-2 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 140.34px;
+}
+
+.market .text-422 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 62.93px;
+}
+
+.market .ae40c4dd-7547-48c1-b {
+  background-image: url(../../images/yoon/img/ae40c4dd-7547-48c1-b46c-343d3ed20855-1708764925145-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .b-c {
+  color: var(--onyx);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 800;
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 149.53px;
+}
+
+.market .text-424 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 69.51px;
+}
+
+.market .x627269f5-3f1e-4950-a {
+  background-image: url(../../images/yoon/img/627269f5-3f1e-4950-ae80-deb9355a630d-1000-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-426 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 146.08px;
+}
+
+.market .text-427 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 62.73px;
+}
+
+.market .x644b1660-9332-4741-8 {
+  background-image: url(../../images/yoon/img/644b1660-9332-4741-8f98-ba96ca75883a-1708782795301-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-430 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 69.39px;
+}
+
+.market .container-11 {
+  display: flex;
+  flex: 1;
+  margin-top: 6px;
+  max-height: 18px;
+}
+
+.market .x0f85632b-208a-48e7-8 {
+  background-image: url(../../images/yoon/img/0f85632b-208a-48e7-8f9e-cab24727184c-1000-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-433 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 71.09px;
+}
+
+.market .text-434 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 69.56px;
+}
+
+.market .x0e204e8e-12bb-41ba-b {
+  background-image: url(../../images/yoon/img/0e204e8e-12bb-41ba-b4fa-2e96ec188fda-1708327738476-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-436 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 116.22px;
+}
+
+.market .text-437 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 62.75px;
+}
+
+.market .b28aff1d-fa5e-4b30-8 {
+  background-image: url(../../images/yoon/img/b28aff1d-fa5e-4b30-82e5-a422b54d12e2-1694670398868-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-44 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 119.08px;
+}
+
+.market .text-441 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 62.72px;
+}
+
+.market .background-3 {
+  background-color: var(--red-orange);
+  border-radius: 4px;
+  display: flex;
+  height: 18px;
+  width: 43.38px;
+}
+
+.market .text-442 {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 9.4px;
+  font-weight: 700;
+  height: 12px;
+  letter-spacing: -0.30px;
+  line-height: 12px;
+  margin-left: 4px;
+  margin-top: 3px;
+  white-space: nowrap;
+  width: 35.58px;
+}
+
+.market .x1d50e519-06c7-4ccf-b {
+  background-image: url(../../images/yoon/img/1d50e519-06c7-4ccf-bec8-5469df0fbe22-1708916795143-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-445 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 62.47px;
+}
+
+.market .container-16 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 281px;
+  margin-left: 16px;
+  width: 156px;
+}
+
+.market .x8d1ce338-808f-4081-b {
+  background-image: url(../../images/yoon/img/8d1ce338-808f-4081-bde0-326fe9a73883-1708502331617-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-449 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 68.58px;
+}
+
+.market .x366573f8-34a5-433d-b {
+  background-image: url(../../images/yoon/img/366573f8-34a5-433d-bf65-0243c76b5df7-1000-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-452 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 148.95px;
+}
+
+.market .text-453 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 71.18px;
+}
+
+.market .x871b7644-c58a-4c58-a {
+  background-image: url(../../images/yoon/img/871b7644-c58a-4c58-addd-757e17e063e2-1712887226759-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-455 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 133.39px;
+}
+
+.market .text-456 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 62.45px;
+}
+
+.market .f807ac83-951b-446a-b {
+  background-image: url(../../images/yoon/img/f807ac83-951b-446a-b939-882517801777-1000-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .flex-row-10 {
+  min-width: 145px;
+}
+
+.market .text-460 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-left: 2px;
+  white-space: nowrap;
+  width: 69px;
+}
+
+.market .text-461 {
+  height: 14px;
+  letter-spacing: -0.30px;
+  line-height: 14px;
+  margin-left: 4px;
+  text-decoration: line-through;
+  white-space: nowrap;
+  width: 44px;
+}
+
+.market .x551132f0-2403-4256-8 {
+  background-image: url(../../images/yoon/img/551132f0-2403-4256-82f9-c19125e92292-1000-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-463 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 154.65px;
+}
+
+.market .flex-row-11 {
+  min-width: 126px;
+}
+
+.market .x1b379bd7-c1ca-4666-9 {
+  background-image: url(../../images/yoon/img/1b379bd7-c1ca-4666-9dbc-b29dc4c61313-1000-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-4-3 {
+  height: 14px;
+  letter-spacing: -0.30px;
+  line-height: 14px;
+  margin-top: 8px;
+  white-space: nowrap;
+  width: 46.4px;
+}
+
+.market .text-467 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 154.65px;
+}
+
+.market .text-468 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 66.4px;
+}
+
+.market .x330a6a1a-bf89-4574-9 {
+  background-image: url(../../images/yoon/img/330a6a1a-bf89-4574-955a-e263226e7cba-1000-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-470 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 106.03px;
+}
+
+.market .text-4-4 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 62.08px;
+}
+
+.market .ec17780e-867e-ef74-f {
+  background-image: url(../../images/yoon/img/ec17780e-867e-ef74-f420-8e2b39f372f3-1000-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-47 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 71.72px;
+}
+
+.market .text-474 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 70.31px;
+}
+
+.market .x9acff420-285a-209b-e {
+  background-image: url(../../images/yoon/img/9acff420-285a-209b-e43c-0601c10a653b-1000-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-477 {
+  height: 18px;
+  letter-spacing: -0.45px;
+  line-height: 18px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 69.15px;
+}
+
+.market .f61fade3-8ad1-4dcb-b {
+  background-image: url(../../images/yoon/img/f61fade3-8ad1-4dcb-b506-fa5e8b335430-1000-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 154px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.market .text-479 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 91.73px;
+}
+
+.market .section-4 {
+  border-color: var(--wild-sand);
+  border-top-style: solid;
+  border-top-width: 6px;
+  display: flex;
+  flex-direction: column;
+  height: 594px;
+  left: 1px;
+  position: absolute;
+  top: 662px;
+  width: 100vw;
+}
+
+.market .heading-2-1 {
+  width: 165px;
+}
+
+.market .link {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-top: 10px;
+  max-height: 235.97px;
+}
+
+.market .e18491e185a1e186b7e1 {
+  background-image: url(../../images/yoon/img/-e1-84-91-e1-85-a1-e1-86-b7-e1-84-8f-e1-85-b3-e1-84-82-e1-85-b5-@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 235.97px;
+  width: 328px;
+}
+
+.market .container-17 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  margin-top: 12px;
+  max-height: 268px;
+  padding: 0 6px;
+  justify-content: center;
+}
+
+.market .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  min-height: 264px;
+  width: 165px;
+}
+
+.market .button-e18491e185a1e {
+  background-image: url(../../images/yoon/img/button----e1-84-91-e1-85-a1-e1-86-b7-e1-84-8f-e1-85-b3-e1-84-82-@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 223px;
+  width: 165px;
+}
+
+.market .heading-4 {
+  cursor: pointer;
+  display: flex;
+  margin-top: 8px;
+  width: 165px;
+}
+
+.market .text-481 {
+  color: #292a2b;
+  font-family: var(--font-family-inter);
+  font-size: 13.9px;
+  font-weight: 800;
+  height: 16px;
+  letter-spacing: -0.42px;
+  line-height: 16px;
+  white-space: nowrap;
+  width: 121.31px;
+}
+
+.market .container-12 {
+  cursor: pointer;
+  display: flex;
+  margin-top: 4px;
+  width: 165px;
+}
+
+.market .zip {
+  color: var(--abbey-2);
+  font-family: var(--font-family-inter);
+  font-size: 11.6px;
+  font-weight: 400;
+  height: 13px;
+  letter-spacing: -0.36px;
+  line-height: normal;
+  white-space: nowrap;
+  width: 130.84px;
+}
+
+.market .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 264px;
+  width: 165px;
+}
+
+.market .button-e18492e185a2e {
+  background-image: url(../../images/yoon/img/button----e1-84-92-e1-85-a2-e1-84-87-e1-85-b3-e1-84-91-e1-85-a5-@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 223px;
+  width: 165px;
+}
+
+.market .text-482 {
+  color: #292a2b;
+  font-family: var(--font-family-inter);
+  font-size: 13.9px;
+  font-weight: 800;
+  height: 16px;
+  letter-spacing: -0.42px;
+  line-height: 16px;
+  white-space: nowrap;
+  width: 132.65px;
+}
+
+.market .text-483 {
+  color: var(--abbey-2);
+  font-family: var(--font-family-inter);
+  font-size: 11.6px;
+  font-weight: 400;
+  height: 13px;
+  letter-spacing: -0.36px;
+  line-height: normal;
+  white-space: nowrap;
+  width: 129.93px;
+}
+
+.market .footer {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--seashell);
+  display: flex;
+  flex-shrink: 1;
+  gap: 50px;
+  height: 55px;
+  justify-content: center;
+  padding: 15px 10px 8px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.market .vector {
+  height: 15.79px;
+  width: 14px;
+}
+
+.market .flex-row-12 {
+  align-items: center;
+  display: flex;
+  margin-top: 3px;
+}
+
+.market .heading-2-2 {
+  height: 23px;
+  letter-spacing: -0.60px;
+  line-height: 23px;
+  margin-left: 16px;
+  margin-top: 33px;
+  white-space: nowrap;
+}
+
+.market .hot-5 {
+  height: 12px;
+  letter-spacing: -0.30px;
+  line-height: 12px;
+  margin-left: 4px;
+  margin-top: 3px;
+  white-space: nowrap;
+  width: 20.15px;
+}
+
+.market .new-19 {
+  height: 12px;
+  letter-spacing: -0.30px;
+  line-height: 12px;
+  margin-left: 4px;
+  margin-top: 3px;
+  white-space: nowrap;
+  width: 22.28px;
+}
+
+.market .overlay-4 {
+  border-radius: 4px;
+  display: flex;
+  height: 18px;
+}
+
+.market .percent-5 {
+  height: 16px;
+  letter-spacing: -0.36px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.market .phone-3 {
+  height: 36px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+}

@@ -1,0 +1,360 @@
+/* screen - revieweru95listu95page-1 */
+
+.revieweru95listu95page-1 {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 980px;
+  width: 100vw;
+}
+
+.revieweru95listu95page-1 .header {
+  display: flex;
+  width: 100vw;
+  position:fixed;
+  z-index: 10;
+  width: 100vw;
+}
+
+.revieweru95listu95page-1 .header-1 {
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.revieweru95listu95page-1 .button {
+  cursor: pointer;
+  height: 44px;
+  margin-left: 6px;
+  margin-top: 6px;
+  width: 44px;
+}
+
+.revieweru95listu95page-1 .link {
+  height: 44px;
+  margin-right: 6px;
+  margin-top: 6px;
+  width: 44px;
+}
+
+.revieweru95listu95page-1 .container {
+  height: 746px;
+  margin-top: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.revieweru95listu95page-1 .frame-427318988 {
+  align-items: flex-start;
+  display: flex;
+  gap: 7px;
+  height: 18px;
+  left: 0;
+  overflow-x: scroll;
+  position: absolute;
+  top: 0;
+  margin-left: 20px;
+  width: 100vw;
+  height: 50px;
+}
+
+.revieweru95listu95page-1 .group {
+  height: 35px;
+  margin-bottom: -17.50px;
+  position: relative;
+  width: 102px;
+}
+
+.revieweru95listu95page-1 .overlap-group {
+  align-items: flex-end;
+  background-color: var(--burning-orange);
+  padding: 5.4px 19.4px;
+}
+
+.revieweru95listu95page-1 .text {
+  height: 24px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  width: 48px;
+}
+
+.revieweru95listu95page-1 .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--silver);
+  justify-content: flex-end;
+  padding: 4.4px 5.7px;
+}
+
+.revieweru95listu95page-1 .text-5 {
+  height: 24px;
+  width: 81px;
+}
+
+.revieweru95listu95page-1 .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--silver);
+  padding: 4.4px 15.8px;
+}
+
+.revieweru95listu95page-1 .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--silver);
+  justify-content: flex-end;
+  padding: 4.4px 25.2px;
+}
+
+.revieweru95listu95page-1 .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--silver);
+  justify-content: flex-end;
+  padding: 4.4px 33.3px;
+}
+
+.revieweru95listu95page-1 .text-8 {
+  height: 24px;
+  width: 32px;
+}
+
+.revieweru95listu95page-1 .frame-427319019 {
+  align-items: flex-end;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+  height: 728px;
+  left: 0;
+  padding: 20px 0px 0px;
+  position: relative;
+  top: 17px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.revieweru95listu95page-1 .frame-427319013 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}
+
+.revieweru95listu95page-1 .frame-42731901 {
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+}
+
+.revieweru95listu95page-1 .frame-427319010 {
+  background-color: var(--alto-2);
+  border-radius: 5px;
+  height: 150px;
+  position: relative;
+  width: 150px;
+}
+
+.revieweru95listu95page-1 .frame-427319009 {
+  align-items: flex-end;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 15px 3px;
+  position: relative;
+  width: 157px;
+}
+
+.revieweru95listu95page-1 .frame-427319003 {
+  display: flex;
+  height: 18px;
+  position: relative;
+  width: 49px;
+}
+
+.revieweru95listu95page-1 .text-1 {
+  height: 18px;
+  white-space: nowrap;
+  width: 49px;
+}
+
+.revieweru95listu95page-1 .frame-427319004 {
+  display: flex;
+  height: 18px;
+  position: relative;
+  width: 93px;
+}
+
+.revieweru95listu95page-1 .wa {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+  white-space: nowrap;
+  width: 93px;
+}
+
+.revieweru95listu95page-1 .frame-427319005 {
+  display: flex;
+  height: 18px;
+  position: relative;
+  width: 143px;
+}
+
+.revieweru95listu95page-1 .wa-1 {
+  width: 143px;
+}
+
+.revieweru95listu95page-1 .frame-427319006 {
+  display: flex;
+  height: 18px;
+  position: relative;
+  width: 26px;
+}
+
+.revieweru95listu95page-1 .text-2 {
+  height: 18px;
+  white-space: nowrap;
+  width: 26px;
+}
+
+.revieweru95listu95page-1 .frame-427319007 {
+  display: flex;
+  height: 18px;
+  position: relative;
+  width: 62px;
+}
+
+.revieweru95listu95page-1 .text-3 {
+  height: 18px;
+  white-space: nowrap;
+  width: 62px;
+}
+
+.revieweru95listu95page-1 .span {
+  letter-spacing: -0.05px;
+}
+
+.revieweru95listu95page-1 .wa-2 {
+  white-space: nowrap;
+  width: 93px;
+}
+
+.revieweru95listu95page-1 .wa-3 {
+  width: 143px;
+}
+
+.revieweru95listu95page-1 .frame-42731901-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  gap: 12px;
+}
+
+.revieweru95listu95page-1 .frame-42731901-2 {
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.revieweru95listu95page-1 .wa-4 {
+  white-space: nowrap;
+  width: 93px;
+}
+
+.revieweru95listu95page-1 .wa-5 {
+  width: 143px;
+}
+
+.revieweru95listu95page-1 .wa-6 {
+  white-space: nowrap;
+  width: 93px;
+}
+
+.revieweru95listu95page-1 .wa-7 {
+  width: 143px;
+}
+
+.revieweru95listu95page-1 .wa-8 {
+  white-space: nowrap;
+  width: 93px;
+}
+
+.revieweru95listu95page-1 .wa-9 {
+  width: 143px;
+}
+
+.revieweru95listu95page-1 .wa-10 {
+  white-space: nowrap;
+  width: 93px;
+}
+
+.revieweru95listu95page-1 .wa-11 {
+  width: 143px;
+}
+
+.revieweru95listu95page-1 .footer {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--seashell);
+  display: flex;
+  flex-shrink: 1;
+  gap: 50px;
+  height: 55px;
+  justify-content: center;
+  margin-top: 21px;
+  padding: 15px 10px 8px;
+  position: relative;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}
+
+.revieweru95listu95page-1 .vector {
+  cursor: pointer;
+  height: 15.79px;
+  position: relative;
+  width: 14px;
+}
+
+.revieweru95listu95page-1 .frame-42731901-3 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.revieweru95listu95page-1 .overlap {
+  border-radius: 90px;
+  display: flex;
+  height: 35px;
+  min-width: 100px;
+}
+
+.revieweru95listu95page-1 .text-4 {
+  letter-spacing: -0.39px;
+  line-height: 18px;
+}
+
+.revieweru95listu95page-1 .wa-12 {
+  height: 18px;
+  letter-spacing: -0.39px;
+  line-height: 18px;
+}

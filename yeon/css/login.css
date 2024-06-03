@@ -1,0 +1,19 @@
+
+body {
+    background-color: #ffffff;
+    --main-bg-color: #ffffff;
+    --vpink-light-color: #F5F5F5;
+    --vpink-lightgray-color: #E6E6E6;
+    --vpink-gray-color: #919191;
+    --vpink-dark-color: #2E2E2E;
+    --vpink-point-color: #CC1B4A;
+}
+
+body > div.social-login {
+    width: 100%;
+    align-items: center;
+}
+
+body > div.social-login > img {
+    width: 260px;
+}

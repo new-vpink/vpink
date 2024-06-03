@@ -1,0 +1,261 @@
+/* screen - shoppingu95cartu95page */
+
+.shoppingu95cartu95page {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1394px;
+  width: 361px;
+}
+
+.shoppingu95cartu95page .header123 {
+  display: flex;
+  margin-right: 1.0px;
+  width: 360px;
+}
+
+.shoppingu95cartu95page .header {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 100px;
+  height: 56px;
+  justify-content: flex-start;
+  min-width: 100%;
+  padding: 0 6px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+.shoppingu95cartu95page .button {
+  height: 44px;
+  width: 44px;
+}
+
+.shoppingu95cartu95page .text-277 {
+  height: 28px;
+  letter-spacing: -0.20px;
+  line-height: 28px;
+  margin-bottom: 2.0px;
+  white-space: nowrap;
+  width: 59px;
+}
+
+.shoppingu95cartu95page .container1 {
+  display: flex;
+  flex-direction: column;
+  height: 1232px;
+  margin-top: 80px;
+  width: 333px;
+}
+
+.shoppingu95cartu95page .text-278 {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: 20px;
+  font-weight: 500;
+  height: 31px;
+  letter-spacing: 0;
+  line-height: 22px;
+  width: 93px;
+}
+
+.shoppingu95cartu95page .group-11831 {
+  display: flex;
+  gap: 220px;
+  margin-top: 9px;
+  width: 329px;
+}
+
+.shoppingu95cartu95page .group-11830 {
+  display: flex;
+  gap: 3px;
+  width: 66px;
+}
+
+.shoppingu95cartu95page .frame-21 {
+  border: 1px solid;
+  border-color: #3c3c43;
+  border-radius: 3.55px;
+  height: 18px;
+  margin-left: -1px;
+  margin-top: 2px;
+  width: 18px;
+}
+
+.shoppingu95cartu95page .text-280 {
+  color: var(--gray);
+  font-family: var(--font-family-roboto);
+  font-size: 11px;
+  font-weight: 500;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+  width: 44px;
+}
+
+.shoppingu95cartu95page .text-279 {
+  color: transparent;
+  font-family: var(--font-family-roboto);
+  font-size: 11px;
+  font-weight: 500;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+  width: 41px;
+}
+
+.shoppingu95cartu95page .span0 {
+  color: var(--gray);
+}
+
+.shoppingu95cartu95page .span1 {
+  color: var(--gray);
+  font-size: 10px;
+}
+
+.shoppingu95cartu95page .span2 {
+  color: #020202;
+}
+
+.shoppingu95cartu95page .group-12002 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 1090px;
+  margin-top: 17px;
+  width: 327.5px;
+}
+
+.shoppingu95cartu95page .group-1 {
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  width: 327.5px;
+}
+
+.shoppingu95cartu95page .frame-427318936 {
+  background-image: url(../../images/yoon/img/-----1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 100px;
+  width: 100px;
+}
+
+.shoppingu95cartu95page .frame-427318933 {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  height: 98px;
+  margin-top: 2px;
+  min-width: 222.5px;
+  padding: 0 1px;
+}
+
+.shoppingu95cartu95page .overlap-group {
+  height: 89px;
+  position: relative;
+  width: 192px;
+}
+
+.shoppingu95cartu95page .frame-427318934 {
+  align-items: flex-end;
+  display: inline-flex;
+  gap: 3px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.shoppingu95cartu95page .text {
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+  width: 192px;
+}
+
+.shoppingu95cartu95page .text-1 {
+  height: 36px;
+  left: 126px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  text-align: right;
+  top: 53px;
+  white-space: nowrap;
+  width: 66px;
+}
+
+.shoppingu95cartu95page .times {
+  height: 11px;
+  margin-top: 7px;
+  width: 12px;
+}
+
+.shoppingu95cartu95page .group-11990 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 3px;
+  margin-top: 15px;
+  min-width: 330px;
+}
+
+.shoppingu95cartu95page .overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--red-ribbon);
+  border-radius: 5px;
+  display: flex;
+  height: 48px;
+  min-width: 328px;
+  padding: 12px 123px;
+}
+
+.shoppingu95cartu95page .text-281 {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 22px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.shoppingu95cartu95page .footer {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--seashell);
+  display: flex;
+  flex-shrink: 1;
+  gap: 50px;
+  height: 55px;
+  justify-content: center;
+  margin-right: 1.0px;
+  margin-top: 12px;
+  padding: 15px 10px 8px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.shoppingu95cartu95page .vector {
+  height: 15.79px;
+  width: 14px;
+}
+
+.shoppingu95cartu95page .box-10 {
+  height: 15.34px;
+  position: relative;
+  width: 15.34px;
+}
