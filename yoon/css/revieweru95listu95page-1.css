@@ -6,12 +6,15 @@
   display: flex;
   flex-direction: column;
   height: 980px;
-  width: 360px;
+  width: 100vw;
 }
 
 .revieweru95listu95page-1 .header {
   display: flex;
-  width: 360px;
+  width: 100vw;
+  position:fixed;
+  z-index: 10;
+  width: 100vw;
 }
 
 .revieweru95listu95page-1 .header-1 {
@@ -20,7 +23,10 @@
   display: flex;
   flex: 1;
   height: 56px;
+  align-items: center;
   justify-content: space-between;
+
+
 }
 
 .revieweru95listu95page-1 .button {
@@ -42,7 +48,10 @@
   height: 746px;
   margin-top: 5px;
   position: relative;
-  width: 339px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 
 .revieweru95listu95page-1 .frame-427318988 {
@@ -54,7 +63,8 @@
   overflow-x: scroll;
   position: absolute;
   top: 0;
-  width: 339px;
+  margin-left: 20px;
+  width: 100vw;
   height: 50px;
 }
 
@@ -127,13 +137,14 @@
   align-items: flex-end;
   display: inline-flex;
   flex-direction: column;
+  align-items: center;
   gap: 27px;
   height: 728px;
   left: 0;
   padding: 20px 0px 0px;
-  position: absolute;
+  position: relative;
   top: 17px;
-  margin-top: 40px;
+  margin-top: 70px;
   margin-bottom: 60px;
 }
 
@@ -312,7 +323,7 @@
   margin-top: 21px;
   padding: 15px 10px 8px;
   position: relative;
-  width: 360px;
+  width: 100vw;
   position: fixed;
   bottom: 0;
 }

@@ -5,9 +5,10 @@
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 1050px;
+  align-items: center;
+  height: 1085px;
   overflow: hidden;
-  width: 360px;
+  width: 100vw;
 }
 
 .myu95page .header {
@@ -16,7 +17,7 @@
   flex-shrink: 1;
   gap: 81px;
   height: 56px;
-  width: 360px;
+  width: 100vw;
 }
 
 .myu95page .button {
@@ -41,7 +42,7 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  min-height: 933px;
+  min-height: 1000px;
   width: 392px;
   margin-top: 80px;
 }
@@ -333,7 +334,7 @@
   display: inline-flex;
   flex-direction: column;
   gap: 10px;
-  left: 0;
+  left: 15px;
   position: absolute;
   top: 0;
 }

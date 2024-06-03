@@ -5,14 +5,14 @@
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 1675px;
+  height: 6992px;
   overflow: hidden;
-  width: 360px;
+  width: 100vw;
 }
 
 .eventu95detailu95page .header {
   display: flex;
-  width: 360px;
+  width: 100vw;
 }
 
 .eventu95detailu95page .header-1 {
@@ -50,16 +50,18 @@
   flex-direction: column;
   margin-top: 2px;
   min-height: 1562px;
-  width: 364px;
+  width: 100vw;
   margin-top: 56px;
 }
 
 .eventu95detailu95page .text-1 {
-  height: 18px;
-  letter-spacing: -0.39px;
-  line-height: 18px;
-  margin-left: 21px;
+  height: 23px;
+  letter-spacing: -0.60px;
+  line-height: 23px;
+  margin-left: 16px;
+  margin-top: 13px;
   white-space: nowrap;
+  font-size: 20px;
 }
 
 .eventu95detailu95page .frame-427318950 {
@@ -68,7 +70,7 @@
   gap: 2px;
   height: 40px;
   margin-top: 5px;
-  width: 354px;
+  width: 100vw;
 }
 
 .eventu95detailu95page .link-button {
@@ -218,13 +220,19 @@
 
 .eventu95detailu95page .overlap-group5 {
   align-items: flex-start;
-  background-color: var(--alto-2);
+  justify-content: flex-start;
+  /* background-color: var(--alto-2); */
+  /* background-image: url('../images/yoon/img/eventDetailPageAsset.png'); */
+  /* background-size: cover; */
   display: flex;
   height: 1448px;
-  justify-content: flex-end;
-  margin-top: 51px;
-  min-width: 360px;
-  padding: 680px 89px;
+  min-width: 100vw;
+  /* padding: 680px 89px; */
+}
+
+.eventu95detailu95page .overlap-group5 > img {
+  width: 100vw;
+  height: 6992px;
 }
 
 .eventu95detailu95page .text-2 {
@@ -252,7 +260,7 @@
   padding: 15px 10px 8px;
   position: fixed;
   bottom: 0;
-  width: 360px;
+  width: 100vw;
 }
 
 .eventu95detailu95page .vector {

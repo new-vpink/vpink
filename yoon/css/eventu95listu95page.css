@@ -6,12 +6,12 @@
   display: flex;
   flex-direction: column;
   height: 1562px;
-  width: 360px;
+  width: 100vw;
 }
 
 .eventu95listu95page .header {
   display: flex;
-  width: 360px;
+  width: 100vw;
 }
 
 .eventu95listu95page .header-1 {
@@ -21,6 +21,9 @@
   flex: 1;
   height: 56px;
   justify-content: space-between;
+  width: 100vw;
+  position:fixed;
+  
 }
 
 .eventu95listu95page .button {
@@ -41,8 +44,10 @@
 .eventu95listu95page .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
   height: 1451px;
-  width: 360px;
+  width: 100vw;
 }
 
 .eventu95listu95page .frame-427319072 {
@@ -169,8 +174,9 @@
   height: 55px;
   justify-content: center;
   padding: 15px 10px 8px;
-  position: relative;
-  width: 360px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
 
 .eventu95listu95page .vector {

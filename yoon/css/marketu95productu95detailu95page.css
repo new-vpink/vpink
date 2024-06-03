@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   min-height: 5192px;
-  width: 360px;
+  width: 100vw;
 }
 
 .marketu95productu95detailu95page .header {
@@ -14,16 +14,16 @@
   background-color: transparent;
   display: flex;
   flex-direction: row;
-  flex-shrink: 1;
-  justify-content: flex-start;
-  min-width: 360px;
-  width: auto;
+  /* flex-shrink: 1; */
+  justify-content: space-between;
+  /* min-width: 100vw; */
+  width: 100vw;
 }
 
 .marketu95productu95detailu95page .overlap-group2 {
   height: 56px;
   position: relative;
-  width: 360px;
+  width: 100vw;
 }
 
 .marketu95productu95detailu95page .header-1 {
@@ -33,7 +33,7 @@
   object-fit: cover;
   position: absolute;
   top: 0;
-  width: 360px;
+  width: 100vw;
   position: fixed;
   z-index: 90;
   top: 0;
@@ -52,7 +52,7 @@
 .marketu95productu95detailu95page .overlap-group3 {
   height: 5136px;
   position: relative;
-  width: 360px;
+  width: 100vw;
 }
 
 .marketu95productu95detailu95page .overlap-group1 {
@@ -60,7 +60,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 360px;
+  width: 100vw;
 }
 
 .marketu95productu95detailu95page .main {
@@ -71,7 +71,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 360px;
+  width: 100vw;
 }
 
 .marketu95productu95detailu95page .section {
@@ -619,8 +619,9 @@
   justify-content: center;
   left: 0;
   padding: 15px 10px 8px;
-  position: absolute;
-  width: 360px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
 
 .marketu95productu95detailu95page .vector {
