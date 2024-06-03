@@ -57,6 +57,7 @@
   height: 17px;
   margin-bottom: 1.0px;
   width: 20px;
+  margin-left: 5px;
 }
 
 .beautystoreticketlist .alarm_btn {
@@ -74,7 +75,7 @@
   display: flex;
   height: 29px;
   justify-content: space-between;
-  margin-right: -0.3px;
+  margin-right: 0px;
   width: 28px;
 }
 
@@ -294,7 +295,7 @@
   height: 32px;
   overflow-x: scroll;
   position: relative;
-  width: 392.7px;
+  width: 330px;
 }
 
 .beautystoreticketlist .divswiper-slidemargin {
@@ -564,18 +565,18 @@
 .beautystoreticketlist .footer {
   align-items: center;
   background-color: var(--white);
-  border: 1px solid;
-  border-color: #f1f1f1;
+  /* border: 1px solid; */
+  border-color: var(--seashell);
   display: flex;
-  gap: 60px;
+  flex-shrink: 1;
+  gap: 50px;
   height: 55px;
   justify-content: center;
-  left: 0;
-  padding: 10px 0px;
+  padding: 15px 10px 8px;
   position: fixed;
-  top: 913px;
-  width: 360px;
-  z-index: 11;
+  bottom: 0;
+  width: 100vw;
+  z-index: 999;
 }
 
 .beautystoreticketlist .vector {
@@ -634,18 +635,4 @@
   height: 18px;
   position: relative;
   width: 60px;
-}
-
-.beautystoreticketlist .footer {
-  align-items: center;
-  background-color: #fff;
-  display: flex;
-  flex-shrink: 1;
-  gap: 50px;
-  height: 55px;
-  justify-content: center;
-  padding: 15px 10px 8px;
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
 }

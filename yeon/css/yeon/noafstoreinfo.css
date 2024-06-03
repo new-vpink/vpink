@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   height: 586px;
-  margin-top: 61px;
+  margin: 61px auto 0 auto;
   width: 360px;
   z-index: 1;
 }
@@ -273,7 +273,7 @@
 }
 
 .noafstoreinfo .flex-row {
-  gap: 91px;
+  gap: 90px;
   height: 22px;
   margin-top: 5px;
   min-width: 239px;
@@ -282,13 +282,13 @@
 .noafstoreinfo .m {
   letter-spacing: 0;
   line-height: 22px;
-  width: 91px;
+  width: 95px;
 }
 
 .noafstoreinfo .l {
   letter-spacing: 0;
   line-height: 22px;
-  width: 91px;
+  width: 95px;
 }
 
 .noafstoreinfo .section-4 {
@@ -334,12 +334,50 @@
 }
 
 .noafstoreinfo .footer {
-  bottom: 0;
+  align-items: center;
+  background-color: var(--white);
+  /* border: 1px solid; */
+  border-color: var(--seashell);
+  display: flex;
+  flex-shrink: 1;
+  gap: 50px;
   height: 55px;
-  left: calc(50.00% - 180px);
+  justify-content: center;
+  padding: 15px 10px 8px;
   position: fixed;
-  width: 360px;
-  z-index: 3;
+  bottom: 0;
+  width: 100vw;
+  z-index: 999;
+}
+
+.footer .vector {
+  height: 15.79px;
+  position: relative;
+  width: 14px;
+}
+
+.footer .vector-1 {
+  height: 16.39px;
+  position: relative;
+  width: 16.38px;
+}
+
+.footer .carbonplay-outline {
+  height: 30px;
+  position: relative;
+  width: 30px;
+}
+
+.footer .vector-2 {
+  height: 18px;
+  position: relative;
+  width: 14px;
+}
+
+.footer .vector-3 {
+  height: 15px;
+  position: relative;
+  width: 14px;
 }
 
 .noafstoreinfo ._-2 {
@@ -360,5 +398,5 @@
 .noafstoreinfo .s-2 {
   letter-spacing: 0;
   line-height: 22px;
-  width: 91px;
+  width: 94px;
 }

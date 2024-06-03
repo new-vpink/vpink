@@ -1,0 +1,637 @@
+/* screen - beautystoreticketlist */
+
+.beautystoreticketlist {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 968px;
+  overflow: hidden;
+  width: 360px;
+}
+
+.beautystoreticketlist .header {
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  width: 360px;
+  z-index: 10;
+}
+
+.beautystoreticketlist .section {
+  align-items: flex-start;
+  display: flex;
+  height: 29.72px;
+  margin-right: 11.6px;
+  margin-top: 8px;
+  min-width: 337.37px;
+}
+
+.beautystoreticketlist .prev_btn {
+  cursor: pointer;
+  height: 28px;
+  width: 23px;
+}
+
+.beautystoreticketlist .location_txt {
+  align-items: center;
+  display: flex;
+  margin-left: 95px;
+  margin-top: 0;
+  min-width: 121px;
+}
+
+.beautystoreticketlist .txt {
+  color: #3d4149;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  height: 28px;
+  letter-spacing: -0.20px;
+  line-height: 28px;
+  white-space: nowrap;
+  width: 99px;
+}
+
+.beautystoreticketlist .location_more {
+  height: 17px;
+  margin-bottom: 1.0px;
+  width: 20px;
+}
+
+.beautystoreticketlist .alarm_btn {
+  align-self: flex-end;
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  margin-left: 71px;
+  overflow: hidden;
+  width: 28px;
+}
+
+.beautystoreticketlist .alarm_ico {
+  display: flex;
+  height: 29px;
+  justify-content: space-between;
+  margin-right: -0.3px;
+  width: 28px;
+}
+
+.beautystoreticketlist .ico {
+  align-self: center;
+  height: 23px;
+  margin-top: 6.0px;
+  width: 20px;
+}
+
+.beautystoreticketlist .point {
+  background-color: #dd3b3b;
+  border-radius: 8px;
+  height: 8px;
+  width: 8px;
+}
+
+.beautystoreticketlist .section-1 {
+  height: 40px;
+  margin-right: 0;
+  margin-top: 11px;
+  width: 334px;
+  z-index: 9;
+}
+
+.beautystoreticketlist .section-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 11px;
+  width: 330px;
+  z-index: 8;
+}
+
+.beautystoreticketlist .section-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 135px;
+  position: relative;
+  width: 330px;
+}
+
+.beautystoreticketlist .ad_view {
+  align-self: stretch;
+  background-color: #fb5315;
+  background-image: url(../img/ad-view@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+}
+
+.beautystoreticketlist .ad_number {
+  align-items: flex-end;
+  bottom: 10px;
+  display: flex;
+  height: 22px;
+  justify-content: flex-end;
+  position: absolute;
+  right: 13px;
+  width: 41px;
+}
+
+.beautystoreticketlist .divswiper-pagination {
+  align-items: center;
+  background-color: #000000b2;
+  border-radius: 11px;
+  display: flex;
+  gap: 1.5px;
+  height: 22px;
+  justify-content: center;
+  padding: 4px 10.73px;
+  position: relative;
+  width: 41px;
+}
+
+.beautystoreticketlist .group-11928 {
+  height: 14px;
+  margin-right: -1.73px;
+  position: relative;
+  width: 21px;
+}
+
+.beautystoreticketlist .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 2px;
+  min-width: 19px;
+}
+
+.beautystoreticketlist .spanswiper-pagination {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.beautystoreticketlist .number {
+  line-height: 14px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.beautystoreticketlist .text-70 {
+  height: 14px;
+  letter-spacing: 0;
+  line-height: 14px;
+  min-width: 4px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.beautystoreticketlist .header-1::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.beautystoreticketlist .header-1 {
+  align-items: center;
+  display: flex;
+  margin-right: 0;
+  margin-top: 11px;
+  overflow-x: scroll;
+  position: relative;
+  width: 330px;
+  z-index: 7;
+}
+
+.beautystoreticketlist .group-11930 {
+  display: flex;
+  height: 60px;
+  position: relative;
+  width: 245.52px;
+}
+
+.beautystoreticketlist .ticket_txt {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  height: 60px;
+  justify-content: center;
+  padding: 12px 0px;
+  position: relative;
+  width: 245.52px;
+}
+
+.beautystoreticketlist .heading-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.beautystoreticketlist .text-68 {
+  color: var(--eerie-black);
+  font-family: var(--font-family-inter);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 19px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.beautystoreticketlist .p-sub-header_subtitle__2-wb7-i {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 209px;
+}
+
+.beautystoreticketlist .text-69 {
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.beautystoreticketlist .container::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.beautystoreticketlist .container {
+  align-self: flex-end;
+  display: flex;
+  height: 32px;
+  margin-right: -47.7px;
+  margin-top: 1px;
+  overflow-x: scroll;
+  width: 393px;
+  z-index: 6;
+}
+
+.beautystoreticketlist .store_list::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.beautystoreticketlist .store_list {
+  align-items: center;
+  display: inline-flex;
+  height: 32px;
+  overflow-x: scroll;
+  position: relative;
+  width: 392.7px;
+}
+
+.beautystoreticketlist .divswiper-slidemargin {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  height: 32px;
+  padding: 0px 8px 0px 0px;
+  position: relative;
+}
+
+.beautystoreticketlist .divswiper-slide {
+  background-color: #e6eefa;
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 16px;
+  display: flex;
+  height: 32px;
+  position: relative;
+  width: 104.67px;
+}
+
+.beautystoreticketlist .text-64 {
+  color: #020202;
+  font-family: var(--font-family-roboto-bold);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-left: 13px;
+  margin-top: 1px;
+  white-space: nowrap;
+  width: 78.87px;
+}
+
+.beautystoreticketlist .divswiper-slide-1 {
+  width: 89.35px;
+}
+
+.beautystoreticketlist .text-65 {
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-left: 13px;
+  margin-top: 1px;
+  white-space: nowrap;
+  width: 63.55px;
+}
+
+.beautystoreticketlist .divswiper-slide-2 {
+  width: 89.34px;
+}
+
+.beautystoreticketlist .text-66 {
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-left: 13px;
+  margin-top: 1px;
+  white-space: nowrap;
+  width: 63.54px;
+}
+
+.beautystoreticketlist .divswiper-slide-3 {
+  width: 77.34px;
+}
+
+.beautystoreticketlist .text-67 {
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-left: 13px;
+  margin-top: 1px;
+  white-space: nowrap;
+  width: 51.54px;
+}
+
+.beautystoreticketlist .section1 {
+  display: flex;
+  gap: 11.8px;
+  margin-top: 16px;
+  width: 330px;
+  z-index: 5;
+}
+
+.beautystoreticketlist .frame-4273189 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 98.65px;
+}
+
+.beautystoreticketlist .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/-----1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 100px;
+  min-width: 100px;
+}
+
+.beautystoreticketlist .div-optimized-thumbn {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  width: 20px;
+}
+
+.beautystoreticketlist .div-optimized-thumbn-1 {
+  background-color: var(--black-2);
+  border-radius: 4px 0px 4px 0px;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  margin-right: -0.27px;
+  position: relative;
+  width: 20px;
+}
+
+.beautystoreticketlist .number-1 {
+  height: 22px;
+  line-height: 22px;
+  margin-left: 0.2px;
+  width: 6.89px;
+}
+
+.beautystoreticketlist .frame-4273189-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 98px;
+  margin-top: 2px;
+  min-width: 219.51px;
+}
+
+.beautystoreticketlist .overlap-group2 {
+  height: 56px;
+  position: relative;
+  width: 185px;
+}
+
+.beautystoreticketlist .frame-427318935 {
+  align-items: center;
+  display: inline-flex;
+  gap: 3px;
+  left: 0;
+  position: absolute;
+  top: 17px;
+}
+
+.beautystoreticketlist .text {
+  letter-spacing: 0;
+  line-height: 13.8px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.beautystoreticketlist .text-1 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.beautystoreticketlist .text-2 {
+  left: 2px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.beautystoreticketlist .frame-427318934 {
+  align-items: flex-end;
+  display: inline-flex;
+  gap: 3px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+}
+
+.beautystoreticketlist .text-3 {
+  letter-spacing: 0;
+  line-height: 17px;
+  position: relative;
+  width: 62px;
+}
+
+.beautystoreticketlist .overlap-group-1 {
+  align-items: flex-end;
+  background-color: var(--fair-pink);
+  border-radius: 10px;
+  display: flex;
+  height: 18px;
+  min-width: 58px;
+  padding: 2px 6px;
+}
+
+.beautystoreticketlist .text-4 {
+  height: 12px;
+  letter-spacing: 0;
+  line-height: 11.5px;
+  min-width: 46px;
+  white-space: nowrap;
+}
+
+.beautystoreticketlist .view-1 {
+  margin-right: -2.00px;
+}
+
+.beautystoreticketlist .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--lily-white);
+  border-radius: 10px;
+  display: flex;
+  height: 18px;
+  min-width: 58px;
+  padding: 2.5px 10.5px;
+}
+
+.beautystoreticketlist .text-5 {
+  height: 12px;
+  letter-spacing: 0;
+  line-height: 12px;
+  min-width: 37px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.beautystoreticketlist .section2 {
+  display: flex;
+  gap: 11.8px;
+  margin-top: 8px;
+  width: 330px;
+  z-index: 4;
+}
+
+.beautystoreticketlist .section3 {
+  display: flex;
+  gap: 11.8px;
+  margin-top: 8px;
+  width: 330px;
+  z-index: 3;
+}
+
+.beautystoreticketlist .section4 {
+  display: flex;
+  gap: 11.8px;
+  margin-top: 8px;
+  width: 330px;
+  z-index: 2;
+}
+
+.beautystoreticketlist .section5 {
+  display: flex;
+  gap: 11.8px;
+  margin-top: 8px;
+  width: 330px;
+  z-index: 1;
+}
+
+.beautystoreticketlist .footer {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: #f1f1f1;
+  display: flex;
+  gap: 60px;
+  height: 55px;
+  justify-content: center;
+  left: 0;
+  padding: 10px 0px;
+  position: fixed;
+  top: 913px;
+  width: 360px;
+  z-index: 11;
+}
+
+.beautystoreticketlist .vector {
+  height: 15.79px;
+  position: relative;
+  width: 14px;
+}
+
+.beautystoreticketlist .vector-1 {
+  height: 16.39px;
+  position: relative;
+  width: 16.38px;
+}
+
+.beautystoreticketlist .carbonplay-outline {
+  height: 30px;
+  position: relative;
+  width: 30px;
+}
+
+.beautystoreticketlist .vector-2 {
+  height: 18px;
+  position: relative;
+  width: 14px;
+}
+
+.beautystoreticketlist .vector-3 {
+  height: 15px;
+  position: relative;
+  width: 14px;
+}
+
+.beautystoreticketlist .divswiper-slide-4 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--mercury);
+  border-radius: 16px;
+  display: flex;
+  height: 32px;
+  position: relative;
+}
+
+.beautystoreticketlist .number-2 {
+  letter-spacing: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.beautystoreticketlist .svg-5 {
+  height: 12px;
+  position: relative;
+  width: 12px;
+}
+
+.beautystoreticketlist .view-2 {
+  height: 18px;
+  position: relative;
+  width: 60px;
+}

@@ -1,0 +1,670 @@
+:root { 
+  --abbey: #495057;
+  --abbey-2: #4d5256;
+  --abbey-3: #4d525626;
+  --alabaster: #fafaf9;
+  --alto: #dddddd;
+  --alto-2: #d9d9d9;
+  --alto-3: #d9d9dc;
+  --badgebackground1: #fb53151a;
+  --black: #020202;
+  --black-2: #0000004c;
+  --black-3: #000000b2;
+  --black-4: #010101;
+  --bright-gray: #3d4149;
+  --celeste: #cccccc;
+  --content-color: #888888;
+  --cornflower-blue: #579cf026;
+  --cornflower-blue-2: #579cf0;
+  --eerie-black: #1a1c2001;
+  --eerie-black-2: #1a1c20;
+  --friar-gray: #817b7b;
+  --fuscous-gray: #555555;
+  --gravel: #444447;
+  --licorice: #1111114c;
+  --mine-shaft: #333333;
+  --monsoon: #8a8888;
+  --mountain-mist: #969595;
+  --mountain-mist-2: #999999;
+  --neptune: #6ac1b926;
+  --neptune-2: #6ac1b9;
+  --nobel: #b5b5b5;
+  --nobel-2: #b9afaf;
+  --onyx: #363a3c;
+  --oslo-gray: #878d91;
+  --outrageous-orange: #fa622f;
+  --point-color-1: #fb5315;
+  --price: #ff695b;
+  --punch: #dd3b3b;
+  --red-orange: #f3554b;
+  --red-orange-2: #f3554b26;
+  --seashell: #f1f1f1;
+  --shady-lady: #aaaaaa;
+  --shark: #292927;
+  --shark-2: #212529;
+  --silver: #bfbfbf;
+  --silver-chalice: #aeaeae;
+  --title-color: #111111;
+  --white: #ffffff80;
+  --wild-sand: #f2f4f5;
+  --wild-sand-2: #f2f4f6;
+  --wild-sand-3: #f3f3f3;
+  --wwwglowpickcomamaranth: #eb3d48;
+  --wwwglowpickcomblack: #000000;
+  --wwwglowpickcombridesmaid: #fdeced;
+  --wwwglowpickcomgray: #8b8b8b;
+  --wwwglowpickcomnero: #ffffff;
+  --wwwglowpickcomsilver: #c4c4c4;
+  --wwwglowpickcomwhisper: #f6f7fa;
+ 
+  --font-size-l: 12.9px;
+  --font-size-m: 12px;
+  --font-size-s: 11px;
+  --font-size-xl: 13px;
+  --font-size-xs: 9.8px;
+  --font-size-xxl: 14px;
+  --font-size-xxxl: 15px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-noto_sans: "Noto Sans", Helvetica;
+  --font-family-noto_sans_kr: "Noto Sans KR", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.inter-extra-bold-oslo-gray-9-8px {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.inter-bold-neptune-9-2px {
+  color: var(--neptune-2);
+  font-family: var(--font-family-inter);
+  font-size: 9.2px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-extra-bold-onyx-12-9px {
+  color: var(--onyx);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.inter-bold-eerie-black-14-3px {
+  color: var(--eerie-black-2);
+  font-family: var(--font-family-inter);
+  font-size: 14.3px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-eerie-black-14-2px {
+  color: var(--eerie-black-2);
+  font-family: var(--font-family-inter);
+  font-size: 14.2px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-cornflower-blue-9-5px {
+  color: var(--cornflower-blue-2);
+  font-family: var(--font-family-inter);
+  font-size: 9.5px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-red-orange-12px {
+  color: var(--red-orange);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-oslo-gray-9-4px {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-inter);
+  font-size: 9.4px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-medium-black-14px {
+  color: var(--wwwglowpickcomblack);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-normal-white-11px {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-oslo-gray-9-8px {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.notosanskr-light-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_kr);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.notosanskr-light-mine-shaft-15px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_kr);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.notosanskr-light-mountain-mist-12px {
+  color: var(--mountain-mist-2);
+  font-family: var(--font-family-noto_sans_kr);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.notosanskr-light-nobel-14px {
+  color: var(--nobel);
+  font-family: var(--font-family-noto_sans_kr);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.notosanskr-bold-outrageous-orange-16px {
+  color: var(--outrageous-orange);
+  font-family: var(--font-family-noto_sans_kr);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.notosanskr-bold-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_kr);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-extra-bold-onyx-12-8px {
+  color: var(--onyx);
+  font-family: var(--font-family-inter);
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.roboto-medium-abbey-9-4px {
+  color: var(--abbey);
+  font-family: var(--font-family-roboto);
+  font-size: 9.4px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-white-10px {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-inter);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-abbey-9-2px {
+  color: var(--abbey-2);
+  font-family: var(--font-family-inter);
+  font-size: 9.2px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-bold-licorice-12px {
+  color: var(--title-color);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-bold-licorice-9px {
+  color: var(--title-color);
+  font-family: var(--font-family-roboto);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-eerie-black-14-2px {
+  color: var(--eerie-black-2);
+  font-family: var(--font-family-inter);
+  font-size: 14.2px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-onyx-12-9px {
+  color: var(--onyx);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-white-11px {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.notosans-bold-black-13px {
+  color: var(--wwwglowpickcomblack);
+  font-family: var(--font-family-noto_sans);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-neptune-9-2px {
+  color: var(--neptune-2);
+  font-family: var(--font-family-inter);
+  font-size: 9.2px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-bold-shark-17-6px {
+  color: var(--shark);
+  font-family: var(--font-family-roboto);
+  font-size: 17.6px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-licorice-11-7px {
+  color: var(--title-color);
+  font-family: var(--font-family-inter);
+  font-size: 11.7px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-licorice-12px {
+  color: var(--title-color);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-suva-gray-11-6px {
+  color: var(--content-color);
+  font-family: var(--font-family-inter);
+  font-size: 11.6px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-medium-international-orange-10px {
+  color: var(--point-color-1);
+  font-family: var(--font-family-roboto);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-white-11-2px {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-inter);
+  font-size: 11.2px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-medium-black-13px {
+  color: var(--wwwglowpickcomblack);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-red-orange-9-5px {
+  color: var(--red-orange);
+  font-family: var(--font-family-inter);
+  font-size: 9.5px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-medium-black-11px {
+  color: var(--wwwglowpickcomblack);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.roboto-bold-abbey-14px {
+  color: var(--abbey);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-eerie-black-14-3px {
+  color: var(--eerie-black-2);
+  font-family: var(--font-family-inter);
+  font-size: 14.3px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-white-12px {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-white-13-3px {
+  font-family: var(--font-family-roboto);
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-white-13-3px-2 {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-roboto);
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-bold-persimmon-13-3px {
+  color: var(--price);
+  font-family: var(--font-family-roboto);
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-bold-white-13-3px {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-roboto);
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-bold-shady-lady-13-3px {
+  color: var(--shady-lady);
+  font-family: var(--font-family-roboto);
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.notosans-bold-celeste-13px {
+  color: var(--celeste);
+  font-family: var(--font-family-noto_sans);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-bright-gray-15-9px {
+  color: var(--bright-gray);
+  font-family: var(--font-family-inter);
+  font-size: 15.9px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-medium-friar-gray-13px {
+  color: var(--friar-gray);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.roboto-medium-black-16px {
+  color: var(--wwwglowpickcomblack);
+  font-family: var(--font-family-roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.roboto-bold-black-16px {
+  color: var(--wwwglowpickcomblack);
+  font-family: var(--font-family-roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-fuscous-gray-11-8px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-inter);
+  font-size: 11.8px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-medium-monsoon-11px {
+  color: var(--monsoon);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.roboto-semi-bold-black-14px {
+  color: var(--wwwglowpickcomblack);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-extra-bold-oslo-gray-11px {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.roboto-bold-shark-12px {
+  color: var(--shark);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-extra-bold-onyx-13px {
+  color: var(--onyx);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.inter-normal-oslo-gray-11px {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-shark-12px {
+  color: var(--shark);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-onyx-12-8px {
+  color: var(--onyx);
+  font-family: var(--font-family-inter);
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-cornflower-blue-9-5px {
+  color: var(--cornflower-blue-2);
+  font-family: var(--font-family-inter);
+  font-size: 9.5px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-15px {
+  color: var(--wwwglowpickcomblack);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-semi-bold-celeste-11px {
+  color: var(--celeste);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-bold-white-9-2px {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-inter);
+  font-size: 9.2px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-shark-13-6px {
+  color: var(--shark-2);
+  font-family: var(--font-family-roboto);
+  font-size: 13.6px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-bold-international-orange-14px {
+  color: var(--point-color-1);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-semi-bold-gravel-12px {
+  color: var(--gravel);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-bold-white-9-4px {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-inter);
+  font-size: 9.4px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-semi-bold-black-17px {
+  color: var(--wwwglowpickcomblack);
+  font-family: var(--font-family-roboto);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-semi-bold-silver-chalice-11px {
+  color: var(--silver-chalice);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-extra-bold-eerie-black-19-7px {
+  color: var(--eerie-black-2);
+  font-family: var(--font-family-inter);
+  font-size: 19.7px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.inter-extra-bold-onyx-12-7px {
+  color: var(--onyx);
+  font-family: var(--font-family-inter);
+  font-size: 12.7px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.inter-bold-white-22px {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-inter);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-white-13-8px {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-inter);
+  font-size: 13.8px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-fuscous-gray-11-6px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-inter);
+  font-size: 11.6px;
+  font-style: normal;
+  font-weight: 400;
+}
