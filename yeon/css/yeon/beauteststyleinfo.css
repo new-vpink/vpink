@@ -6,7 +6,7 @@
   min-height: 1023px;
   min-width: 360px;
   overflow: hidden;
-  width: 100%;
+  width: 100vw;
 }
 
 .beauteststyleinfo .container {
@@ -485,30 +485,31 @@
 }
 
 .beauteststyleinfo .header {
-  background-color: transparent;
+  background-color: red;
   display: flex;
   height: 56px;
   justify-content: center;
-  left: calc(50.00% - 180px);
   position: fixed;
   top: 0;
-  width: 360px;
-  z-index: 3;
+  width: 100vw;
+  z-index: 10;
 }
 
 .beauteststyleinfo .view {
+  background-color: red;
+
   align-items: center;
   display: flex;
   height: 56px;
   padding: 0 7px;
-  width: 360px;
+  width: 100vw;
 }
 
 .beauteststyleinfo .button-4 {
   cursor: pointer;
-  height: 28px;
+  height: 13px;
   margin-left: 4px;
-  width: 18px;
+  width: 13px;
 }
 
 .beauteststyleinfo .txt {

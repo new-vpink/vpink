@@ -12,8 +12,9 @@
   align-items: flex-start;
   display: flex;
   margin-top: 40px;
-  min-width: 360px;
+  min-width: 100vw;
   z-index: 1;
+  justify-content: center;
 }
 
 .beauteststylelist .section {
@@ -177,7 +178,7 @@
 
 .beauteststylelist .image {
   align-self: stretch;
-  background-image: url(../img/img-750-jpg-5@2x.png);
+  background-image: url("../../img/img-750-jpg-5@2x.png");
   background-position: 50% 50%;
   background-size: cover;
   height: 108.64px;
@@ -187,7 +188,7 @@
 
 .beauteststylelist .image-1 {
   align-self: stretch;
-  background-image: url(../img/image-3@2x.png);
+  background-image: url(../../img/img-375x375-jpg-1@2x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 108.64px;
@@ -197,7 +198,7 @@
 
 .beauteststylelist .image-2 {
   align-self: stretch;
-  background-image: url(../img/image-1@2x.png);
+  background-image: url(../../img/img-375x375-jpg-1@2x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 108.64px;
@@ -207,7 +208,7 @@
 
 .beauteststylelist .image-3 {
   align-self: stretch;
-  background-image: url(../img/image-4@2x.png);
+  background-image: url(../../img/img-750-jpg-5@2x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 108.64px;
@@ -217,7 +218,7 @@
 
 .beauteststylelist .image-4 {
   align-self: stretch;
-  background-image: url(../img/image-2@2x.png);
+  background-image: url(../../img/image-2@2x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 108.64px;
@@ -227,7 +228,7 @@
 
 .beauteststylelist .image-5 {
   align-self: stretch;
-  background-image: url(../img/image-5@2x.png);
+  background-image: url(../../img/image-5@2x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 108.64px;
@@ -295,7 +296,7 @@
 
 .beauteststylelist .img_375x375jpg {
   align-self: stretch;
-  background-image: url(../img/img-375x375-jpg-1@2x.png);
+  background-image: url(../../img/img-375x375-jpg-1@2x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 50px;
@@ -365,7 +366,6 @@
   flex-direction: column;
   height: 39.02%;
   justify-content: center;
-  padding: 5px 8.12px 6px 22.11px;
   position: absolute;
   right: 0;
   top: 30.49%;
@@ -396,16 +396,33 @@
   width: fit-content;
 }
 
-.beauteststylelist .footer {
+/* .beauteststylelist .footer {
   bottom: 0;
   height: 55px;
   left: calc(50.00% - 180px);
   position: fixed;
   width: 360px;
   z-index: 2;
+} */
+
+.footer {
+  align-items: center;
+  background-color: white;
+  border: 1px solid;
+  border-color: var(--seashell);
+  display: flex;
+  flex-shrink: 1;
+  gap: 50px;
+  height: 55px;
+  justify-content: center;
+  padding: 15px 10px 8px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  z-index: 5;
 }
 
-.beauteststylelist .header {
+/* .beauteststylelist .header {
   background-color: transparent;
   display: flex;
   height: 56px;
@@ -415,6 +432,22 @@
   top: 0;
   width: 360px;
   z-index: 3;
+} */
+
+.header {
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 56px;
+  justify-content: flex-start;
+  min-width: 100vw;
+  padding: 0 6px;
+  width: 100vw;
+  position: fixed;
+  z-index: 10;
 }
 
 .beauteststylelist .view {
