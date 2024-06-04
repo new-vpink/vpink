@@ -3,28 +3,29 @@
 .beauteststylelist {
   background-color: var(--wwwglowpickcomnero);
   display: flex;
-  min-height: 910px;
-  min-width: 360px;
+  height: calc(100vh - 56px);
   width: 100%;
+  overflow: hidden;
 }
 
 .beauteststylelist .container {
   align-items: flex-start;
   display: flex;
-  margin-top: 40px;
-  min-width: 100vw;
+  margin-top: 50px;
+  width: 100vw;
   z-index: 1;
   justify-content: center;
 }
 
 .beauteststylelist .section {
   display: flex;
-  width: 360px;
+  width: 100vw;
 }
 
 .beauteststylelist .section-1 {
   display: flex;
   flex: 1;
+  overflow: hidden;
 }
 
 .beauteststylelist .background-horizontal-border {
@@ -32,14 +33,16 @@
   background-color: var(--wwwglowpickcomnero);
   display: flex;
   flex: 1;
-  height: 810px;
-  min-width: 100%;
+  height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
 }
 
 .beauteststylelist .section-container {
-  height: 799px;
+  height: 100vh;
   position: relative;
-  width: 360px;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .beauteststylelist .section-2 {
@@ -47,15 +50,14 @@
   display: flex;
   flex-direction: column;
   gap: 1px;
-  left: 0;
-  position: absolute;
-  width: 360px;
+  position: relative;
+  width: 100vw;
 }
 
 .beauteststylelist .overlap-group1 {
   height: 500px;
   position: relative;
-  width: 360px;
+  width: 100vw;
 }
 
 .beauteststylelist .background {
@@ -65,7 +67,7 @@
   flex-direction: column;
   left: 0;
   padding: 7px 0px 32px;
-  width: 360px;
+  width: 100vw;
 }
 
 .beauteststylelist .container-1 {
