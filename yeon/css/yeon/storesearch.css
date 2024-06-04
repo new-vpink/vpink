@@ -997,3 +997,98 @@
   position: relative;
   width: 14px;
 }
+
+.storesearch.header {
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  width: 360px;
+  z-index: 10;
+}
+
+.storesearch .section {
+  align-items: flex-start;
+  display: flex;
+  height: 29.72px;
+  /* height: 100vh; */
+  margin-right: 11.6px;
+  margin-top: 8px;
+  /* min-width: 337.37px; */
+  flex-direction: column;
+  gap: unset;
+}
+
+.header .section {
+  flex-direction: unset;
+}
+
+.storesearch .prev_btn {
+  cursor: pointer;
+  height: 28px;
+  width: 23px;
+}
+
+.storesearch .location_txt {
+  align-items: center;
+  display: flex;
+  margin-left: 95px;
+  margin-top: 0;
+  min-width: 121px;
+}
+
+.storesearch .txt {
+  color: #3d4149;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  height: 28px;
+  letter-spacing: -0.20px;
+  line-height: 28px;
+  white-space: nowrap;
+  width: 99px;
+  margin-left: 0px;
+}
+
+.storesearch .location_more {
+  height: 17px;
+  margin-bottom: 1.0px;
+  width: 20px;
+  margin-left: 5px;
+}
+
+.storesearch .alarm_btn {
+  align-self: flex-end;
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  margin-left: 71px;
+  overflow: hidden;
+  width: 28px;
+}
+
+.storesearch .alarm_ico {
+  display: flex;
+  height: 29px;
+  justify-content: space-between;
+  margin-right: 0px;
+  width: 28px;
+}
+
+.storesearch .ico {
+  align-self: center;
+  height: 23px;
+  margin-top: 6.0px;
+  width: 20px;
+}
+
+.storesearch .point {
+  background-color: #dd3b3b;
+  border-radius: 8px;
+  height: 8px;
+  width: 8px;
+}
+
+.storesearch .container-11 .section {
+  height: 100vh;
+}
