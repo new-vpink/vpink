@@ -636,3 +636,12 @@
   position: relative;
   width: 60px;
 }
+
+.beautystoreticketlist .header {
+  position: fixed;
+  background-color: #fff;
+}
+
+.beautystoreticketlist .section-1 {
+  margin-top: 55px;
+}

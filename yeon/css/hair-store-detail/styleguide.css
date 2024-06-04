@@ -1,0 +1,106 @@
+:root { 
+  --content-color: #888888;
+  --fuscous-gray: #555555;
+  --gallery: #eeeeee;
+  --title-color: #111111;
+  --wild-sand: #f3f3f3;
+  --wwwglowpickcomblack: #000000;
+  --wwwglowpickcomnero: #ffffff;
+ 
+  --font-size-m: 18px;
+  --font-size-s: 13.8px;
+  --font-size-xs: 13.7px;
+  --font-size-xxs: 13.1px;
+  --font-size-xxxs: 13px;
+  --font-size-xxxxs: 12.5px;
+  --font-size-xxxxxs: 11px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-bold-licorice-18px {
+  color: var(--title-color);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-white-11px {
+  color: var(--wwwglowpickcomnero);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-licorice-12-8px {
+  color: var(--title-color);
+  font-family: var(--font-family-inter);
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-licorice-13px {
+  color: var(--title-color);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-suva-gray-13-8px {
+  color: var(--content-color);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-licorice-12-5px {
+  color: var(--title-color);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-licorice-13-1px {
+  color: var(--title-color);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-licorice-12-9px {
+  color: var(--title-color);
+  font-family: var(--font-family-inter);
+  font-size: 12.9px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-suva-gray-13-7px {
+  color: var(--content-color);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-licorice-12-7px {
+  color: var(--title-color);
+  font-family: var(--font-family-inter);
+  font-size: 12.7px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-licorice-12-6px {
+  color: var(--title-color);
+  font-family: var(--font-family-inter);
+  font-size: 12.6px;
+  font-style: normal;
+  font-weight: 400;
+}
