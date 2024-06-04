@@ -3,7 +3,7 @@
 .main {
   align-items: center;
   background-color: var(--wwwglowpickcomnero);
-  border: 1px solid;
+  /* border: 1px solid; */
   border-color: var(--wwwglowpickcomblack);
   display: flex;
   flex-direction: column;
