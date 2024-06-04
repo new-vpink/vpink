@@ -72,6 +72,7 @@
   position: absolute;
   top: 0;
   width: 100vw;
+  margin-bottom: 50px;
 }
 
 .marketu95productu95detailu95page .section {
@@ -524,6 +525,7 @@
   flex: 1;
   max-height: 4209px;
   object-fit: cover;
+  margin-bottom: 50px;
 }
 
 .marketu95productu95detailu95page .background-horizontal-border {
