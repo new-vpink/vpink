@@ -1230,3 +1230,156 @@
   position: relative;
   width: 14px;
 }
+
+/* .main .header {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  margin-left: 3px;
+  min-width: 254px;
+  z-index: 16;
+}
+
+.main .overlap-group8 {
+  height: 36px;
+  position: relative;
+  width: 254px;
+}
+
+.main .svg {
+  height: 17px;
+  left: 238px;
+  position: absolute;
+  top: 14px;
+  width: 16px;
+}
+
+.main .header-1 {
+  display: flex;
+  gap: 41px;
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 239px;
+}
+
+.main .logo {
+  cursor: pointer;
+  height: 36px;
+  width: 97px;
+}
+
+.main .location-txt {
+  color: #3d4149;
+  font-family: var(--font-family-inter);
+  font-size: 15.9px;
+  font-weight: 700;
+  height: 28px;
+  letter-spacing: -0.20px;
+  line-height: 28px;
+  margin-top: 8px;
+  white-space: nowrap;
+  width: 98.65px;
+} */
+
+.main .section-2 {
+  align-items: flex-end;
+  display: flex;
+  margin-right: 6.0px;
+  margin-top: 26px;
+  min-width: 324px;
+  z-index: 15;
+}
+
+.main .ticket-ico {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  height: 72px;
+  width: 56px;
+}
+
+.main .x-ico {
+  align-self: center;
+  height: 43px;
+  margin-left: -2px;
+  width: 54px;
+}
+
+.main .ticket-txt {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 6px;
+  white-space: nowrap;
+  width: 23px;
+}
+
+.main .attend-ico {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  height: 73px;
+  margin-left: 13px;
+  width: 57px;
+}
+
+.main .attend-ico-1 {
+  height: 44px;
+  margin-left: -2px;
+  width: 55px;
+}
+
+.main .attend-txt {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: -6px;
+  white-space: nowrap;
+  width: 23px;
+}
+
+.main .x-ico-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  height: 72px;
+  margin-left: 13px;
+  width: 56px;
+}
+
+.main .x-txt {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 3px;
+  white-space: nowrap;
+  width: 34px;
+}
+
+.main .timedeal-ico {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  height: 72px;
+  margin-left: 6px;
+  width: 56px;
+}
+
+.main .timedeal-ico-1 {
+  height: 43px;
+  width: 54px;
+}
+
+.main .timedeal-txt {
+  align-self: center;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 12px;
+  white-space: nowrap;
+  width: 34px;
+}
+
