@@ -810,7 +810,7 @@
 }
 
 .storesearch .header {
-  background-color: transparent;
+  background-color: white;
   display: flex;
   height: 56px;
   justify-content: center;
