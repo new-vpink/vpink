@@ -1,0 +1,22 @@
+:root { 
+  --fuscous-gray: #555555;
+  --title-color: #111111;
+  --wild-sand: #f3f3f3;
+  --wwwglowpickcomblack: #000000;
+  --wwwglowpickcomnero: #ffffff;
+ 
+  --font-size-m: 15.9px;
+  --font-size-s: 15px;
+  --font-size-xs: 14px;
+  --font-size-xxs: 13.9px;
+  --font-size-xxxs: 13.8px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-normal-fuscous-gray-13-8px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}

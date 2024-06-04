@@ -1005,7 +1005,7 @@
   height: 75px;
   left: 0;
   position: absolute;
-  top: 1px;
+  /* top: 1px; */
   width: 301px;
 }
 
@@ -1222,9 +1222,9 @@
 
 .vector-4 {
   height: 16px;
-  left: 6px;
+  /* left: 6px; */
   position: absolute;
-  top: 5px;
+  /* top: 5px; */
   width: 16px;
 }
 
