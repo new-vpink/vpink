@@ -1,0 +1,122 @@
+@import "./common/variables";
+
+.contents-wrap {
+  min-width: $width-1920px-over;
+  min-height: $height-1920px-over;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 100px;
+}
+
+.contents__text {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.cards {
+  width: 100%;
+  height: fit-content;
+}
+
+.cards-wrap {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.cards-left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  // align-items: flex-start;
+
+  .link-card {
+    min-width: 480px;
+    height: 89px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 36px;
+    margin-top: 16px;
+    overflow: hidden;
+
+    .link-card-texts-wrap {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .link-card__text {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .link-card__link-wrap {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .link-card__link__text {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .link-card-img-wrap {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .link-card__img {
+      width: 20rem;
+      height: 20rem;
+      position: relative;
+      left: 100px;
+      transition: transform 0.3s ease;
+    }
+    
+    .link-card:hover > .link-card__img {
+        transform: scale(2);
+    }
+  }
+}
+
+.cards-middle {
+  width: 100%;
+}
+
+.cards-right {
+  width: 100%;
+}
+
+@media (max-width: 1915px) {
+  .contents-wrap {
+    min-width: $width-1920px;
+    min-height: $height-1920px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .contents-wrap {
+    min-width: $width-1440px;
+    min-height: $height-1440px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contents-wrap {
+    min-width: $width-1024px;
+    min-height: $height-1024px;
+  }
+}

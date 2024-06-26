@@ -1,13 +1,15 @@
+@import "variables";
+
 .container {
   width: 100%;
-  height: calc(100vh - 85px + 120px);
-  padding-top: 85px;
+  height: calc(100vh - $header-height + $footer-height);
+  padding-top: $header-height;
   display: flex;
   justify-content: center;
 }
 
 .container-wrap {
-  min-width: 1712px;
+  min-width: $width-1920px-over;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -17,18 +19,18 @@
 
 @media (max-width: 1915px) {
   .container-wrap {
-    min-width: 1316px;
-  }
-}
-@media (max-width: 1440px) {
-  .container-wrap {
-    min-width: 952px;
-  }
-}
-@media (max-width: 1024px) {
-  .container-wrap {
-    min-width: 712px;
+    min-width: $width-1920px;
   }
 }
 
-/*# sourceMappingURL=container.css.map */
+@media (max-width: 1440px) {
+  .container-wrap {
+    min-width: $width-1440px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-wrap {
+    min-width: $width-1024px;
+  }
+}

@@ -1,6 +1,8 @@
+@import 'variables';
+
 .footer {
   width: calc(100% - 160px);
-  height: 120px;
+  height: $footer-height;
   padding: 24px 80px;
 }
 
@@ -10,11 +12,11 @@
     padding: 24px 40px;
   }
 }
+
 @media (max-width: 744px) {
   .footer {
     width: calc(100% - 48px);
     padding: 24px 24px;
   }
 }
-
-/*# sourceMappingURL=footer.css.map */
+// ss
