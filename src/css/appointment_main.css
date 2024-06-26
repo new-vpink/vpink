@@ -1,0 +1,9 @@
+#appointment-main__button:disabled {
+    background-color: #0d131c;
+    cursor: default;
+}
+
+#appointment-main__button:disabled > span {
+    color: white;
+}
+

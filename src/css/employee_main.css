@@ -1,0 +1,9 @@
+#employee-main__button:disabled {
+    background-color: #0d131c;
+    cursor: default;
+}
+
+#employee-main__button:disabled > span {
+    color: white;
+}
+

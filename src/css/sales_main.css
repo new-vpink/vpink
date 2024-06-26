@@ -1,0 +1,9 @@
+#sales-main__button:disabled {
+    background-color: #0d131c;
+    cursor: default;
+}
+
+#sales-main__button:disabled > span {
+    color: white;
+}
+
