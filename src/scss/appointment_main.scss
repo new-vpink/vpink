@@ -1,3 +1,5 @@
+@import "./common/variables";
+
 .contents-wrap {
     min-width: 100vw;
     display: flex;
@@ -6,12 +8,11 @@
     gap: 1rem;
   }
 
-#employee-main__button:disabled {
+#appointment-main__button:disabled {
     background-color: #0d131c;
     cursor: default;
 }
 
-#employee-main__button:disabled > span {
+#appointment-main__button:disabled > span {
     color: white;
 }
-

@@ -2,10 +2,11 @@
 
 .container {
   width: 100%;
-  height: calc(100vh - $header-height + $footer-height);
+  height: calc(100vh - ($header-height + $footer-height + 48px + 80px));
   padding-top: $header-height;
   display: flex;
   justify-content: center;
+  margin-top: 80px;
 }
 
 .container-wrap {

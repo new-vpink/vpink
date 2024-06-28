@@ -1,9 +1,10 @@
 .container {
   width: 100%;
-  height: calc(100vh - 85px + 120px);
+  height: calc(100vh - 346px);
   padding-top: 85px;
   display: flex;
   justify-content: center;
+  margin-top: 80px;
 }
 
 .container-wrap {
@@ -17,7 +18,7 @@
 
 @media (max-width: 1915px) {
   .container-wrap {
-    min-width: 1316px;
+    min-width: 1385px;
   }
 }
 @media (max-width: 1440px) {
